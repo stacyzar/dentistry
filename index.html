@@ -1,0 +1,3119 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js scheme_default">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="profile" href="//gmpg.org/xfn/11">
+	<link rel="pingback" href="http://prodent.ancorathemes.com/xmlrpc.php">
+	<title>ProDent _ Dental Clinic &#8211; Just another WordPress site</title>
+	<style type="text/css" media="screen">
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,
+		body #booked-profile-page input[type=submit].button-primary:hover,
+		body .booked-list-view button.button:hover,
+		body .booked-list-view input[type=submit].button-primary:hover,
+		body table.booked-calendar input[type=submit].button-primary:hover,
+		body .booked-modal input[type=submit].button-primary:hover,
+		body table.booked-calendar th,
+		body table.booked-calendar thead,
+		body table.booked-calendar thead th,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+		body #booked-profile-page .booked-profile-header,
+		body #booked-profile-page .booked-tabs li.active a,
+		body #booked-profile-page .booked-tabs li.active a:hover,
+		body #booked-profile-page .appt-block .google-cal-button>a:hover,
+		#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header {
+			background: #c4f2d4 !important;
+		}
+
+		body #booked-profile-page input[type=submit].button-primary:hover,
+		body table.booked-calendar input[type=submit].button-primary:hover,
+		body .booked-list-view button.button:hover,
+		body .booked-list-view input[type=submit].button-primary:hover,
+		body .booked-modal input[type=submit].button-primary:hover,
+		body table.booked-calendar th,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+		body #booked-profile-page .booked-profile-header,
+		body #booked-profile-page .appt-block .google-cal-button>a:hover {
+			border-color: #c4f2d4 !important;
+		}
+
+		body table.booked-calendar tr.days,
+		body table.booked-calendar tr.days th,
+		body .booked-calendarSwitcher.calendar,
+		body #booked-profile-page .booked-tabs,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th {
+			background: #039146 !important;
+		}
+
+		body table.booked-calendar tr.days th,
+		body #booked-profile-page .booked-tabs {
+			border-color: #039146 !important;
+		}
+
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,
+		body #booked-profile-page input[type=submit].button-primary,
+		body table.booked-calendar input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-modal input[type=submit].button-primary,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+		body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,
+		body #booked-profile-page .appt-block .google-cal-button>a,
+		body .booked-modal p.booked-title-bar,
+		body table.booked-calendar td:hover .date span,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,
+		.booked-ms-modal .booked-book-appt
+
+		/* Multi-Slot Booking */
+			{
+			background: #56c477;
+		}
+
+		body #booked-profile-page input[type=submit].button-primary,
+		body table.booked-calendar input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-modal input[type=submit].button-primary,
+		body #booked-profile-page .appt-block .google-cal-button>a,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover {
+			border-color: #56c477;
+		}
+
+		body .booked-modal .bm-window p i.fa,
+		body .booked-modal .bm-window a,
+		body .booked-appt-list .booked-public-appointment-title,
+		body .booked-modal .bm-window p.appointment-title,
+		.booked-ms-modal.visible:hover .booked-book-appt {
+			color: #56c477;
+		}
+
+		.booked-appt-list .timeslot.has-title .booked-public-appointment-title {
+			color: inherit;
+		}
+	</style>
+	<meta name='robots' content='noindex,nofollow' />
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+	<link rel='dns-prefetch' href='//s.w.org' />
+	<link rel="alternate" type="application/rss+xml" title="ProDent _ Dental Clinic &raquo; Feed"
+		href="http://prodent.ancorathemes.com/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="ProDent _ Dental Clinic &raquo; Comments Feed"
+		href="http://prodent.ancorathemes.com/comments/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="ProDent _ Dental Clinic &raquo; Home 1 Comments Feed"
+		href="http://prodent.ancorathemes.com/home-1/feed/" />
+	<script type="text/javascript">
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/prodent.ancorathemes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.1" } };
+		!function (e, a, t) { var r, n, o, i, p = a.createElement("canvas"), s = p.getContext && p.getContext("2d"); function c(e, t) { var a = String.fromCharCode; s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0); var r = p.toDataURL(); return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL() } function l(e) { if (!s || !s.fillText) return !1; switch (s.textBaseline = "top", s.font = "600 32px Arial", e) { case "flag": return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447])); case "emoji": return !c([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 } function d(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (i = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, o = 0; o < i.length; o++)t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji))) }(window, document, window._wpemojiSettings);
+	</script>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link property="stylesheet" rel='stylesheet' id='wp-block-library-css'
+		href='http://prodent.ancorathemes.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='wc-block-vendors-style-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.1.0'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='wc-block-style-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=3.1.0'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='booked-icons-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/css/icons.css?ver=2.3' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='booked-tooltipster-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css?ver=3.3.0'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='booked-tooltipster-theme-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css?ver=3.3.0'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='booked-animations-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/css/animations.css?ver=2.3'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='booked-css-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/booked/dist/booked.css?ver=2.3' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='contact-form-7-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2.2'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='essential-grid-plugin-settings-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=3.0.7'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='tp-fontello-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=3.0.7'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='rs-plugin-settings-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.22'
+		type='text/css' media='all' />
+	<style id='rs-plugin-settings-inline-css' type='text/css'>
+		#rs-demo-id {}
+	</style>
+	<link property="stylesheet" rel='stylesheet' id='trx_addons-icons-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/css/font-icons/css/trx_addons_icons-embedded.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='swiperslider-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/js/swiper/swiper.min.css' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='magnific-popup-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/js/magnific/magnific-popup.min.css'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='trx_addons-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/css/trx_addons.css' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='trx_addons-animation-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/css/trx_addons.animation.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='trx_demo_icons-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_demo/css/font-icons/css/trx_demo_icons.css'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='trx_demo_icons_animation-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_demo/css/font-icons/css/animation.css'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='trx_demo_panels-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/trx_demo/css/trx_demo_panels.css' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='woocommerce-layout-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.5.2'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='woocommerce-smallscreen-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.5.2'
+		type='text/css' media='only screen and (max-width: 768px)' />
+	<link property="stylesheet" rel='stylesheet' id='woocommerce-general-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=4.5.2'
+		type='text/css' media='all' />
+	<style id='woocommerce-inline-inline-css' type='text/css'>
+		.woocommerce form .form-row .required {
+			visibility: visible;
+		}
+	</style>
+	<link property="stylesheet" rel='stylesheet' id='booked-wc-fe-styles-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/booked/includes/add-ons/woocommerce-payments//css/frontend-style.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='dtpicker-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/date-time-picker-field/assets/js/vendor/datetimepicker/jquery.datetimepicker.min.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='js_composer_front-css'
+		href='http://prodent.ancorathemes.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.4.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-font-google_fonts-css'
+		href="https://fonts.googleapis.com/css?family=Montserrat%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=5.5.1"
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='fontello-icons-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/css/font-icons/css/fontello-embedded.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-main-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/style.css' type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-styles-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/css/__styles.css?ver=5.5.1' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-colors-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/css/__colors.css?ver=5.5.1' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='mediaelement-css'
+		href='http://prodent.ancorathemes.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.13-9993131'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='wp-mediaelement-css'
+		href='http://prodent.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.5.1'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-elementor-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/plugins/elementor/elementor.css' type='text/css'
+		media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-elementor-responsive-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/plugins/elementor/elementor-responsive.css'
+		type='text/css' media='all' />
+	<link property="stylesheet" rel='stylesheet' id='prodent-responsive-css'
+		href='http://prodent.ancorathemes.com/wp-content/themes/prodent/css/responsive.css?ver=5.5.1' type='text/css'
+		media='all' />
+	<script type='text/javascript' src='http://prodent.ancorathemes.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'
+		id='jquery-core-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.2.22'
+		id='tp-tools-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.22'
+		id='revmin-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'
+		id='jquery-blockui-js'></script>
+	<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+		/* <![CDATA[ */
+		var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "http:\/\/prodent.ancorathemes.com\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.5.2'
+		id='wc-add-to-cart-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.4.1'
+		id='vc_woocommerce-add-to-cart-js-js'></script>
+	<script type='text/javascript' id='booked-wc-fe-functions-js-extra'>
+		/* <![CDATA[ */
+		var booked_wc_variables = { "prefix": "booked_wc_", "ajaxurl": "http:\/\/prodent.ancorathemes.com\/wp-admin\/admin-ajax.php", "i18n_confirm_appt_edit": "Are you sure you want to change the appointment date? By doing so, the appointment date will need to be approved again.", "i18n_pay": "Are you sure you want to add the appointment to cart and go to checkout?", "i18n_mark_paid": "Are you sure you want to mark this appointment as \"Paid\"?", "i18n_paid": "Paid", "i18n_awaiting_payment": "Awaiting Payment", "checkout_page": "http:\/\/prodent.ancorathemes.com\/checkout\/" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/booked/includes/add-ons/woocommerce-payments//js/frontend-functions.js?ver=5.5.1'
+		id='booked-wc-fe-functions-js'></script>
+	<link rel="https://api.w.org/" href="http://prodent.ancorathemes.com/wp-json/" />
+	<link rel="alternate" type="application/json" href="http://prodent.ancorathemes.com/wp-json/wp/v2/pages/2" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://prodent.ancorathemes.com/xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml"
+		href="http://prodent.ancorathemes.com/wp-includes/wlwmanifest.xml" />
+	<meta name="generator" content="WordPress 5.5.1" />
+	<meta name="generator" content="WooCommerce 4.5.2" />
+	<link rel="canonical" href="http://prodent.ancorathemes.com/" />
+	<link rel='shortlink' href='http://prodent.ancorathemes.com/' />
+	<link rel="alternate" type="application/json+oembed"
+		href="http://prodent.ancorathemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fprodent.ancorathemes.com%2F" />
+	<link rel="alternate" type="text/xml+oembed"
+		href="http://prodent.ancorathemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fprodent.ancorathemes.com%2F&#038;format=xml" />
+	<noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+	<style type="text/css">
+		.recentcomments a {
+			display: inline !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+	</style>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+	<meta name="generator"
+		content="Powered by Slider Revolution 6.2.22 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+	<link rel="icon" href="http://prodent.ancorathemes.com/wp-content/uploads/2017/09/favicon-90x90.png"
+		sizes="32x32" />
+	<link rel="icon" href="http://prodent.ancorathemes.com/wp-content/uploads/2017/09/favicon.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="http://prodent.ancorathemes.com/wp-content/uploads/2017/09/favicon.png" />
+	<meta name="msapplication-TileImage"
+		content="http://prodent.ancorathemes.com/wp-content/uploads/2017/09/favicon.png" />
+	<script type="text/javascript">function setREVStartSize(e) {
+			//window.requestAnimationFrame(function() {				 
+			window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+			window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+			try {
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+				e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+				if (e.layout === "fullscreen" || e.l === "fullscreen")
+					newh = Math.max(e.mh, window.RSIH);
+				else {
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+					e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+					var nl = new Array(e.rl.length),
+						ix = 0,
+						sl;
+					e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+					for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+					sl = nl[0];
+					for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+					var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+					newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+				}
+				if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+				document.getElementById(e.c).height = newh + "px";
+				window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+			} catch (e) {
+				console.log("Failure at Presize of Slider:" + e)
+			}
+			//});
+		};</script>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1550844032142 {
+			background-color: #f4f7f7 !important;
+		}
+
+		.vc_custom_1568014661941 {
+			background-size: cover !important;
+		}
+
+		.vc_custom_1600686106114 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/services_2bg.jpg?id=602) !important;
+			background-position: bottom center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505393813228 {
+			margin-top: -2px !important;
+		}
+
+		.vc_custom_1505305241868 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/bg-8.jpg?id=309) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1499417322037 {
+			background-color: #f4f7f7 !important;
+		}
+
+		.vc_custom_1600686707029 {
+			margin-top: -2px !important;
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/07/team_bg.jpg?id=442) !important;
+			background-position: bottom center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505314985522 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/emailer_bg.jpg?id=685) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1499264732518 {
+			background-color: #f4f7f7 !important;
+		}
+
+		.vc_custom_1505225017255 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/07/bg-2.jpg?id=222) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505295369870 {
+			margin-top: 0.2rem !important;
+		}
+
+		.vc_custom_1505295415543 {
+			margin-top: -0.65rem !important;
+		}
+
+		.vc_custom_1505478341349 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-29.jpg?id=305) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1568014611375 {
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505298848028 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/promo_bg.jpg?id=591) !important;
+			background-position: center right !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1568014631127 {
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505298153748 {
+			margin-top: -0.85rem !important;
+		}
+
+		.vc_custom_1505300921312 {
+			margin-top: 1.25rem !important;
+		}
+
+		.vc_custom_1505301068269 {
+			margin-top: -0.3rem !important;
+		}
+
+		.vc_custom_1505304672056 {
+			margin-top: -0.55rem !important;
+		}
+
+		.vc_custom_1505304866268 {
+			margin-top: -0.55rem !important;
+		}
+
+		.vc_custom_1505305446547 {
+			margin-top: -0.6rem !important;
+		}
+
+		.vc_custom_1505305639666 {
+			margin-top: -0.1rem !important;
+		}
+
+		.vc_custom_1505305680555 {
+			margin-top: 1rem !important;
+		}
+
+		.vc_custom_1505305709728 {
+			margin-top: 0.05rem !important;
+		}
+
+		.vc_custom_1505305956634 {
+			margin-top: -0.6rem !important;
+		}
+
+		.vc_custom_1505305992325 {
+			margin-top: -0.6rem !important;
+		}
+
+		.vc_custom_1505480129917 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-31.jpg?id=312) !important;
+			background-position: top center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505394122545 {
+			background-color: #ffffff !important;
+		}
+
+		.vc_custom_1600687089008 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/09/promo_2bg.jpg?id=651) !important;
+			background-position: center right !important;
+			background-repeat: no-repeat !important;
+			background-size: contain !important;
+		}
+
+		.vc_custom_1505306974399 {
+			margin-top: 1.3rem !important;
+		}
+
+		.vc_custom_1505307343714 {
+			margin-top: 1.05rem !important;
+		}
+
+		.vc_custom_1505307883713 {
+			margin-top: -0.55rem !important;
+		}
+
+		.vc_custom_1505308231064 {
+			margin-top: 0.65rem !important;
+		}
+
+		.vc_custom_1505308320741 {
+			margin-top: 0.05rem !important;
+		}
+
+		.vc_custom_1505480322976 {
+			background: #f4f7f7 url(http://prodent.ancorathemes.com/wp-content/uploads/2017/07/history_bg.jpg?id=524) !important;
+			background-position: top center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1499418051287 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/07/bg-6.jpg?id=297) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505310404353 {
+			margin-top: 0.45rem !important;
+		}
+
+		.vc_custom_1505310429434 {
+			margin-top: 1rem !important;
+		}
+
+		.vc_custom_1505284869954 {
+			margin-top: 0.7rem !important;
+		}
+
+		.vc_custom_1505283845164 {
+			padding-top: 0px !important;
+			padding-right: 0px !important;
+			padding-bottom: 0px !important;
+			padding-left: 0px !important;
+		}
+
+		.vc_custom_1505284965464 {
+			margin-top: 0.9rem !important;
+		}
+
+		.vc_custom_1505312168144 {
+			margin-top: -0.6rem !important;
+		}
+
+		.vc_custom_1505313316444 {
+			margin-top: -0.55rem !important;
+		}
+
+		.vc_custom_1505314994412 {
+			background-color: #ffffff !important;
+		}
+
+		.vc_custom_1505370675901 {
+			margin-top: 0.4rem !important;
+		}
+
+		.vc_custom_1505370701819 {
+			margin-top: 0.8rem !important;
+		}
+
+		.vc_custom_1505370759969 {
+			margin-top: -1.2rem !important;
+		}
+
+		.vc_custom_1505225272755 {
+			margin-top: 0.2rem !important;
+		}
+
+		.vc_custom_1505226493543 {
+			margin-top: 0.6rem !important;
+		}
+	</style><noscript>
+		<style>
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body
+	class="home page-template-default page page-id-2 theme-prodent frontpage woocommerce-no-js body_tag scheme_default blog_mode_front body_style_wide  is_stream blog_style_excerpt sidebar_hide expand_content remove_margins header_type_custom header_style_header-custom-13 header_position_default menu_style_top no_layout wpb-js-composer js-comp-ver-6.4.1 vc_responsive elementor-default">
+	<div class="body_wrap">
+		<div class="page_wrap">
+			<header
+				class="top_panel top_panel_custom top_panel_custom_13 top_panel_custom_header-fullwidth-simple without_bg_image scheme_default">
+				<div
+					class="vc_row wpb_row vc_row-fluid vc_custom_1505045794229 vc_row-o-content-middle vc_row-flex sc_layouts_row sc_layouts_row_type_compact sc_layouts_row_fixed">
+					<div
+						class="wpb_column vc_column_container vc_col-sm-2 sc_layouts_column sc_layouts_column_align_left sc_layouts_column_icons_position_left">
+						<div class="vc_column-inner">
+							<div class="wpb_wrapper">
+								<div class="sc_layouts_item">
+									<a href="index.html" class="111 sc_layouts_logo sc_layouts_logo_default">
+										<img class="logo_image"
+											src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/logo-1.png"
+											alt="" width="199" height="64">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="wpb_column vc_column_container vc_col-sm-10 sc_layouts_column sc_layouts_column_align_right sc_layouts_column_icons_position_left">
+						<div class="vc_column-inner">
+							<div class="wpb_wrapper">
+								<div class="sc_layouts_item">
+									<nav class="sc_layouts_menu sc_layouts_menu_default menu_hover_fade hide_on_mobile"
+										data-animation-in="fadeInUpSmall" data-animation-out="fadeOutDownSmall">
+										<ul id="menu-main-menu" class="sc_layouts_menu_nav">
+											<li id="menu-item-104"
+												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-104">
+												<a href="index.html"><span>Главная</span></a>
+											</li>
+											<li id="menu-item-105"
+												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-105">
+												<a href="pages/about.html"><span>О компании</span></a>
+											</li>
+											<li id="menu-item-95"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
+												<a href="pages/team.html">
+													<span>Наша команда</span>
+												</a>
+											</li>
+											<li id="menu-item-94"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
+												<a href="pages/services.html">
+													<span>Услуги</span>
+												</a>
+											</li>
+											<li id="menu-item-107"
+												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107">
+												<a href="pages/blog.html"><span>Блог</span></a>
+											</li>
+											<li id="menu-item-89"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89">
+												<a href="pages/contacts.html"><span>Контакты</span></a></li>
+										</ul>
+									</nav>
+									<div class="sc_layouts_iconed_text sc_layouts_menu_mobile_button">
+										<a class="sc_layouts_item_link sc_layouts_iconed_text_link" href="#">
+											<span
+												class="sc_layouts_item_icon sc_layouts_iconed_text_icon trx_addons_icon-menu"></span>
+										</a>
+									</div>
+								</div>
+								<div class="sc_layouts_item sc_layouts_hide_on_mobile sc_layouts_hide_on_tablet">
+									<div class="sc_layouts_iconed_text hide_on_tablet hide_on_mobile">
+										<span class="sc_layouts_item_icon sc_layouts_iconed_text_icon icon-clock_small"></span>
+										<span class="sc_layouts_item_details sc_layouts_iconed_text_details">
+											<span class="sc_layouts_item_details_line2 sc_layouts_iconed_text_line2">
+												Пн - Сб: 8:00 - 21:00
+											</span>
+										</span>
+									</div>
+								</div>
+								<div class="sc_layouts_item sc_layouts_hide_on_mobile sc_layouts_hide_on_tablet">
+									<div class="sc_layouts_iconed_text hide_on_tablet hide_on_mobile">
+										<a href="tel:18003456756" class="sc_layouts_item_link sc_layouts_iconed_text_link">
+											<span class="sc_layouts_item_icon sc_layouts_iconed_text_icon icon-phone_small"></span>
+											<span class="sc_layouts_item_details sc_layouts_iconed_text_details">
+												<span class="sc_layouts_item_details_line1 sc_layouts_iconed_text_line1">
+													1 800 345 67 56
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="sc_layouts_item sc_layouts_hide_on_mobile">
+									<a href="/appointments/" class="sc_button hide_on_mobile color_style_default sc_button_default sc_button_size_normal sc_button_icon_left">
+										<span class="sc_button_text">
+											<span class="sc_button_title">Записаться на прием</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="vc_row wpb_row vc_row-fluid vc_custom_1505046253284 vc_row-has-fill sc_layouts_row sc_layouts_row_type_normal sc_layouts_hide_on_frontpage scheme_dark">
+					<div class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column sc_layouts_column_align_left sc_layouts_column_icons_position_left">
+						<div class="vc_column-inner">
+							<div class="wpb_wrapper">
+								<div class="vc_empty_space  vc_custom_1505046754490 height_large" style="height: 32px">
+									<span class="vc_empty_space_inner"></span>
+								</div>
+								<div id="" class="sc_content color_style_default sc_content_default sc_content_width_1_1 sc_float_center">
+									<div class="sc_content_container">
+										<div class="sc_layouts_item">
+											<div class="sc_layouts_title with_content">
+												<div class="sc_layouts_title_content">
+													<div class="sc_layouts_title_title">
+														<h1 class="sc_layouts_title_caption">Главная</h1>
+													</div>
+													<div class="sc_layouts_title_breadcrumbs"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_empty_space  vc_custom_1505047311143 height_large" style="height: 32px">
+									<span class="vc_empty_space_inner"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="menu_mobile_overlay"></div>
+			<div class="menu_mobile menu_mobile_fullscreen scheme_dark">
+				<div class="menu_mobile_inner">
+					<a class="menu_mobile_close icon-cancel"></a><a class="sc_layouts_logo" href="#"><img
+							src="http://prodent.ancorathemes.com/wp-content/uploads/2017/09/logox2_white.png"
+							alt="http://prodent.ancorathemes.com/wp-content/uploads/2017/09/logox2_white.png"
+							width="394" height="128"></a>
+					<nav class="menu_mobile_nav_area">
+						<ul id="menu_mobile-main-menu" class="">
+							<li id="menu_mobile-item-104" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-104">
+								<a href="index.html"><span>Главная</span></a>
+							</li>
+							<li id="menu_mobile-item-105"
+								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-105">
+								<a href="pages/about.html"><span>О компании</span></a>
+							</li>
+							<li id="menu_mobile-item-95"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a
+									href="pages/team.html"><span>Наша команда</span></a></li>
+							<li id="menu_mobile-item-94"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a
+									href="pages/services.html"><span>Услуги</span></a></li>
+							<li id="menu_mobile-item-107"
+								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107">
+								<a href="pages/blog.html"><span>Блог</span></a>
+							</li>
+							<li id="menu_mobile-item-89"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a
+									href="pages/contacts.html"><span>Контакты</span></a></li>
+						</ul>
+					</nav>
+					<div class="search_wrap search_style_normal search_mobile">
+						<div class="search_form_wrap">
+							<form role="search" method="get" class="search_form"
+								action="http://prodent.ancorathemes.com/">
+								<input type="text" class="search_field" placeholder="Search" value="" name="s">
+								<button type="submit" class="search_submit trx_addons_icon-search"></button>
+							</form>
+						</div>
+					</div>
+					<div class="socials_mobile"><a target="_blank" href="https://twitter.com/ancora_themes"
+							class="social_item social_item_style_icons social_item_type_icons"><span
+								class="social_icon social_twitter"><span class="icon-twitter"></span></span></a><a
+							target="_blank" href="https://www.facebook.com/AncoraThemes/"
+							class="social_item social_item_style_icons social_item_type_icons"><span
+								class="social_icon social_facebook"><span class="icon-facebook"></span></span></a><a
+							target="_blank" href="https://www.instagram.com/ancora_themes/"
+							class="social_item social_item_style_icons social_item_type_icons"><span
+								class="social_icon social_instagramm"><span class="icon-instagramm"></span></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="page_content_wrap">
+				<div class="content_wrap">
+					<div class="content">
+						<article id="post-2"
+							class="post_item_single post_type_page post-2 page type-page status-publish hentry">
+							<div class="post_content entry-content">
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									data-vc-stretch-content="true"
+									class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="wpb_revslider_element wpb_content_element">
+													<p class="rs-p-wp-fix"></p>
+													<rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery"
+														style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;max-width:;">
+														<rs-module id="rev_slider_3_1" style="" data-version="6.2.22">
+															<rs-slides>
+																<rs-slide data-key="rs-5" data-title="Slide"
+																	data-thumb="//prodent.ancorathemes.com/wp-content/uploads/revslider/home-1/slide1-100x50.jpg"
+																	data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+																	<img src="//prodent.ancorathemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																		title="slide1.jpg" width="1920" height="814"
+																		data-lazyload="//prodent.ancorathemes.com/wp-content/uploads/revslider/home-1/slide1.jpg"
+																		data-panzoom="d:10000;ss:100;se:110;os:100/100;oe:-100/-100;"
+																		class="rev-slidebg" data-no-retina>
+																	<rs-layer id="slider-3-slide-5-layer-1"
+																		class="home-title" data-type="text"
+																		data-color="#ffffff" data-rsp_ch="on"
+																		data-xy="x:32px;y:c;yo:-100px;"
+																		data-text="s:100;l:90;fw:300;a:inherit;"
+																		data-wrpcls="home-title-wrap"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:1500;sp:800;sR:1500;"
+																		data-frame_999="x:-50px;o:0;st:8700;sR:6400;"
+																		style="z-index:5;font-family:Montserrat;">
+																		Сервис<br>
+																		Компании,<br>
+																		который вам нужен!
+																	</rs-layer>
+																	<rs-layer id="slider-3-slide-5-layer-2"
+																		class="home-descr" data-type="text"
+																		data-color="#ffffff" data-rsp_ch="on"
+																		data-xy="x:48px;y:c;yo:66px;"
+																		data-text="s:17;l:20;fw:500;a:inherit;"
+																		data-wrpcls="home-descr-wrap"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:1750;sp:800;sR:1750;"
+																		data-frame_999="x:-50px;o:0;st:8800;sR:6250;"
+																		style="z-index:6;font-family:Montserrat;">
+																		Лучшее качество!
+																	</rs-layer><a id="slider-3-slide-5-layer-3"
+																		class="rs-layer home-button rev-btn"
+																		href="/our-services/" target="_self"
+																		data-type="button"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on" data-xy="x:32px;y:c;yo:146px;"
+																		data-text="s:15;l:17;fw:500;a:inherit;"
+																		data-wrpcls="home-button-wrap"
+																		data-padding="t:25;r:58;b:27;l:58;"
+																		data-border="bor:60px,60px,60px,60px;"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:2000;sp:800;sR:2000;"
+																		data-frame_999="x:-50px;o:0;st:8900;sR:6100;"
+																		data-frame_hover="bgc:#7d75cd;boc:#000;bor:60px,60px,60px,60px;bos:solid;oX:50;oY:50;"
+																		style="z-index:7;background-color:#8c84dc;font-family:Montserrat;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+																		Посмотреть услуги
+																	</a>
+																</rs-slide>
+																<rs-slide data-key="rs-6" data-title="Slide"
+																	data-thumb="//prodent.ancorathemes.com/wp-content/uploads/revslider/home-1/slide2-100x50.jpg"
+																	data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+																	<img src="//prodent.ancorathemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																		title="slide2.jpg" width="1920" height="814"
+																		data-lazyload="//prodent.ancorathemes.com/wp-content/uploads/revslider/home-1/slide2.jpg"
+																		data-panzoom="d:10000;ss:100;se:110;os:100/100;oe:-100/-100;"
+																		class="rev-slidebg" data-no-retina>
+																	<rs-layer id="slider-3-slide-6-layer-1"
+																		class="home-title" data-type="text"
+																		data-color="#ffffff" data-rsp_ch="on"
+																		data-xy="x:32px;y:c;yo:-100px;"
+																		data-text="s:100;l:90;fw:300;a:inherit;"
+																		data-wrpcls="home-title-wrap"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:1500;sp:800;sR:1500;"
+																		data-frame_999="x:-50px;o:0;st:8700;sR:6400;"
+																		style="z-index:5;font-family:Montserrat;">
+																		Лучшее качество<br>Современное<br>
+																		Оборудование
+																	</rs-layer>
+																	<rs-layer id="slider-3-slide-6-layer-2"
+																		class="home-descr" data-type="text"
+																		data-color="#ffffff" data-rsp_ch="on"
+																		data-xy="x:48px;y:c;yo:66px;"
+																		data-text="s:17;l:20;fw:500;a:inherit;"
+																		data-wrpcls="home-descr-wrap"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:1750;sp:800;sR:1750;"
+																		data-frame_999="x:-50px;o:0;st:8800;sR:6250;"
+																		style="z-index:6;font-family:Montserrat;">
+																		Лучшее качество!
+																	</rs-layer><a id="slider-3-slide-6-layer-3"
+																		class="rs-layer home-button rev-btn"
+																		href="/our-services/" target="_self"
+																		data-type="button"
+																		data-color="rgba(255,255,255,1)"
+																		data-rsp_ch="on" data-xy="x:32px;y:c;yo:146px;"
+																		data-text="s:15;l:17;fw:500;a:inherit;"
+																		data-wrpcls="home-button-wrap"
+																		data-padding="t:25;r:58;b:27;l:58;"
+																		data-border="bor:60px,60px,60px,60px;"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:2000;sp:800;sR:2000;"
+																		data-frame_999="x:-50px;o:0;st:8900;sR:6100;"
+																		data-frame_hover="bgc:#7d75cd;boc:#000;bor:60px,60px,60px,60px;bos:solid;oX:50;oY:50;"
+																		style="z-index:7;background-color:#8c84dc;font-family:Montserrat;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+																		Подробнее
+																	</a>
+																</rs-slide>
+																<rs-slide data-key="rs-7" data-title="Slide"
+																	data-thumb="//prodent.ancorathemes.com/wp-content/uploads/revslider/home-1/slide3-100x50.jpg"
+																	data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+																	<img src="//prodent.ancorathemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+																		title="slide3.jpg" width="1920" height="814"
+																		data-lazyload="//prodent.ancorathemes.com/wp-content/uploads/revslider/home-1/slide3.jpg"
+																		data-panzoom="d:10000;ss:100;se:110;os:100/100;oe:-100/-100;"
+																		class="rev-slidebg" data-no-retina>
+																	<rs-layer id="slider-3-slide-7-layer-1"
+																		class="home-title" data-type="text"
+																		data-color="#ffffff" data-rsp_ch="on"
+																		data-xy="x:32px;y:c;yo:-100px;"
+																		data-text="s:100;l:90;fw:300;a:inherit;"
+																		data-wrpcls="home-title-wrap"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:1500;sp:800;sR:1500;"
+																		data-frame_999="x:-50px;o:0;st:8700;sR:6400;"
+																		style="z-index:5;font-family:Montserrat;">
+																		Доверьте<br>
+																		Вашу улыбку <br>
+																		Нам!
+																	</rs-layer>
+																	<rs-layer id="slider-3-slide-7-layer-2"
+																		class="home-descr" data-type="text"
+																		data-color="#ffffff" data-rsp_ch="on"
+																		data-xy="x:48px;y:c;yo:66px;"
+																		data-text="s:17;l:20;fw:500;a:inherit;"
+																		data-wrpcls="home-descr-wrap"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:1750;sp:800;sR:1750;"
+																		data-frame_999="x:-50px;o:0;st:8800;sR:6250;"
+																		style="z-index:6;font-family:Montserrat;">
+																		Лучшее качество!
+																	</rs-layer><a id="slider-3-slide-7-layer-3"
+																		class="rs-layer home-button rev-btn"
+																		href="/our-services/" target="_self"
+																		data-type="button"
+																		data-color="rgba(255,255,255,1)"
+																		data-xy="x:32px;y:c;yo:146px;"
+																		data-text="s:15;l:17;fw:500;a:inherit;"
+																		data-wrpcls="home-button-wrap" data-rsp_bd="off"
+																		data-padding="t:25;r:58;b:27;l:58;"
+																		data-border="bor:60px,60px,60px,60px;"
+																		data-frame_0="x:50px;"
+																		data-frame_1="st:2000;sp:800;sR:2000;"
+																		data-frame_999="x:-50px;o:0;st:8900;sR:6100;"
+																		data-frame_hover="bgc:#7d75cd;boc:#000;bor:60px,60px,60px,60px;bos:solid;oX:50;oY:50;"
+																		style="z-index:7;background-color:#8c84dc;font-family:Montserrat;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+																		Подробнее
+																	</a>
+																</rs-slide>
+															</rs-slides>
+														</rs-module>
+														<script type="text/javascript">
+															setREVStartSize({ c: 'rev_slider_3_1', rl: [1240, 1024, 768, 480], el: [814], gw: [1240], gh: [814], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" });
+															var revapi3,
+																tpj;
+															function revinit_revslider31() {
+																jQuery(function () {
+																	tpj = jQuery;
+																	revapi3 = tpj("#rev_slider_3_1");
+																	if (revapi3 == undefined || revapi3.revolution == undefined) {
+																		revslider_showDoubleJqueryError("rev_slider_3_1");
+																	} else {
+																		revapi3.revolution({
+																			visibilityLevels: "1240,1024,768,480",
+																			gridwidth: 1240,
+																			gridheight: 814,
+																			lazyType: "all",
+																			spinner: "spinner0",
+																			perspective: 600,
+																			perspectiveType: "local",
+																			editorheight: "814,768,960,720",
+																			responsiveLevels: "1240,1024,768,480",
+																			progressBar: {
+																				color: "rgba(0,0,0,0.15)",
+																				vertical: "top",
+																				size: 5,
+																				x: 0,
+																				y: 0
+																			},
+																			navigation: {
+																				mouseScrollNavigation: false,
+																				onHoverStop: false,
+																				touch: {
+																					touchenabled: true,
+																					touchOnDesktop: true
+																				},
+																				arrows: {
+																					enable: true,
+																					style: "custom",
+																					left: {
+																						container: "layergrid",
+																						v_align: "bottom",
+																						h_offset: 42,
+																						v_offset: 84
+																					},
+																					right: {
+																						container: "layergrid",
+																						h_align: "left",
+																						v_align: "bottom",
+																						h_offset: 84,
+																						v_offset: 84
+																					}
+																				}
+																			},
+																			fallbacks: {
+																				allowHTML5AutoPlayOnAndroid: true
+																			},
+																		});
+																	}
+
+																});
+															} // End of RevInitScript
+															var once_revslider31 = false;
+															if (document.readyState === "loading") { document.addEventListener('readystatechange', function () { if ((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider31) { once_revslider31 = true; revinit_revslider31(); } }); } else { once_revslider31 = true; revinit_revslider31(); }
+														</script>
+														<script>
+															var htmlDivCss = unescape("%23rev_slider_3_1_wrapper%20.custom.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3A%23000%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A1000%3B%0A%7D%0A%23rev_slider_3_1_wrapper%20.custom.tparrows%3Ahover%20%7B%0A%09background%3A%23000%3B%0A%7D%0A%23rev_slider_3_1_wrapper%20.custom.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%27revicons%27%3B%0A%09font-size%3A15px%3B%0A%09color%3A%23fff%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A%23rev_slider_3_1_wrapper%20.custom.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%27%5Ce824%27%3B%0A%7D%0A%23rev_slider_3_1_wrapper%20.custom.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%27%5Ce825%27%3B%0A%7D%0A%0A%0A");
+															var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+															if (htmlDiv) {
+																htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+															} else {
+																var htmlDiv = document.createElement('div');
+																htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+																document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+															}
+														</script>
+														<script>
+															var htmlDivCss = unescape("%0A%0A%0A");
+															var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+															if (htmlDiv) {
+																htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+															} else {
+																var htmlDiv = document.createElement('div');
+																htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+																document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+															}
+														</script>
+													</rs-module-wrap>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid cf_date vc_custom_1550844032142 vc_row-has-fill">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+												<div id="" class="sc_title color_style_default sc_title_default">
+													<h6
+														class="sc_item_subtitle sc_title_subtitle sc_align_left sc_item_title_style_default">
+														Добро пожаловать в клинику!
+													</h6>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505295369870 height_tiny"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div id="" class="sc_title color_style_default sc_title_default">
+													<h2
+														class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default">
+														Welcome to a Family Dental Clinic</h2>
+													<div class="sc_item_descr sc_title_descr sc_align_left">
+														<p>Professional dental clinic ProDent offers the whole range of
+															dentistry services: treatment of caries, gum diseases, tooth
+															whitening, implantation, dentures (crowns installation),
+															surgery, occlusion correction (braces) etc. Our dentists
+															will help you solve any dental problem painless and
+															carefully</p>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505295415543 height_small"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div id=""
+													class="sc_content color_style_default sc_content_default sc_float_center sc_shift_y_large_negative">
+													<div class="sc_content_container">
+														<div role="form" class="wpcf7" id="wpcf7-f1355-p2-o1"
+															lang="en-US" dir="ltr">
+															<div class="screen-reader-response" role="alert"
+																aria-live="polite"></div>
+															<form action="/#wpcf7-f1355-p2-o1" method="post"
+																class="wpcf7-form init" novalidate="novalidate">
+																<div style="display: none;">
+																	<input type="hidden" name="_wpcf7" value="1355" />
+																	<input type="hidden" name="_wpcf7_version"
+																		value="5.2.2" />
+																	<input type="hidden" name="_wpcf7_locale"
+																		value="en_US" />
+																	<input type="hidden" name="_wpcf7_unit_tag"
+																		value="wpcf7-f1355-p2-o1" />
+																	<input type="hidden" name="_wpcf7_container_post"
+																		value="2" />
+																	<input type="hidden" name="_wpcf7_posted_data_hash"
+																		value="" />
+																</div>
+																<div class="cpcf7_title">Запишитесь уже сегодня!
+																</div>
+																<div
+																	class="trx_addons_columns_wrap columns_padding_bottom">
+																	<div class="trx_addons_column-1">
+																		<div class="trx_addons_column-1_2 your_name">
+																			<span
+																				class="wpcf7-form-control-wrap text-268"><input
+																					type="text" name="text-268" value=""
+																					size="40"
+																					class="wpcf7-form-control wpcf7-text"
+																					aria-invalid="false"
+																					placeholder="Ваше имя" /></span>
+																		</div>
+																		<div class="trx_addons_column-1_2"><span
+																				class="wpcf7-form-control-wrap email-678"><input
+																					type="email" name="email-678"
+																					value="" size="40"
+																					class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+																					aria-required="true"
+																					aria-invalid="false"
+																					placeholder="Email" /></span></div>
+																	</div>
+																	<div class="trx_addons_column-1">
+																		<div class="trx_addons_column-1_2"><span
+																				class="wpcf7-form-control-wrap text-438"><input
+																					type="text" name="text-438" value=""
+																					size="40"
+																					class="wpcf7-form-control wpcf7-text"
+																					aria-invalid="false"
+																					placeholder="Номер телефона" /></span></div>
+																		<div class="trx_addons_column-1_2"><span
+																				class="wpcf7-form-control-wrap text-268"><input
+																					type="text" name="text-268" value=""
+																					size="40"
+																					class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+																					aria-required="true"
+																					aria-invalid="false"
+																					placeholder="Имя доктора" /></span>
+																		</div>
+																	</div>
+																	<div class="trx_addons_column-1 icon-icon11"><span
+																			class="wpcf7-form-control-wrap text-821"><input
+																				type="text" name="text-821" value=""
+																				size="40"
+																				class="wpcf7-form-control wpcf7-text date_picker_field"
+																				aria-invalid="false"
+																				placeholder="Время приема" /></span></div>
+																	<div class="trx_addons_column-1_1 submit_container">
+																		<input type="submit" value="Записаться"
+																			class="wpcf7-form-control wpcf7-submit" />
+																	</div>
+																</div>
+																<div class="wpcf7-response-output" role="alert"
+																	aria-hidden="true"></div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_hidden-sm sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									data-vc-stretch-content="true"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1568014661941 vc_row-has-fill vc_row-no-padding vc_row-o-equal-height vc_row-flex">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 vc_hidden-xs vc_col-has-fill sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner vc_custom_1505478341349">
+											<div class="wpb_wrapper"></div>
+										</div>
+									</div>
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 vc_col-sm-offset-0 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner vc_custom_1568014611375">
+											<div class="wpb_wrapper">
+												<div id=""
+													class="sc_content color_style_default sc_content_default sc_content_width_1_2 sc_float_left sc_shift_x_small">
+													<div class="sc_content_container">
+														<div
+															class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1505298848028 vc_row-has-fill">
+															<div
+																class="wpb_column vc_column_container vc_col-sm-11 vc_col-lg-offset-1 vc_col-lg-11 vc_col-md-offset-0 vc_col-md-11 vc_col-sm-offset-0 vc_col-has-fill sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner vc_custom_1568014631127">
+																	<div class="wpb_wrapper">
+																		<div class="vc_empty_space  height_huge"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div
+																			class="sc_action color_style_default sc_action_simple promo">
+																			<div
+																				class="sc_action_content sc_item_content">
+																				<div
+																					class="sc_action_item sc_action_item_simple sc_action_item_ml">
+																					<h3 class="sc_action_item_title">
+																						<span>Возникли проблемы с зубами?
+																							Позвоните нам! </span></h3>
+																					<div
+																						class="sc_action_item_icon sc_action_item_icon_type_ icon-phone_small">
+																						<span
+																							class="sc_action_item_icon_type_ icon-phone_small"></span>
+																					</div>
+																					<h6 class="sc_action_item_subtitle">
+																						<span><a
+																								href="tel:800-123-4567">800-123-4567</a>
+																						</span></h6>
+																					<div
+																						class="action_subtitle_separator">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="vc_empty_space  vc_custom_1505298153748 height_large"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1600686106114 vc_row-has-fill">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505300921312 height_huge"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div
+													class="sc_services color_style_default sc_services_callouts sc_services_featured_top">
+													<h2
+														class="sc_item_title sc_services_title sc_align_center sc_item_title_style_default">
+														Услуги компании</h2>
+													<h6
+														class="sc_item_subtitle sc_services_subtitle sc_align_center sc_item_title_style_default">
+														Наши услуги</h6>
+													<div
+														class="sc_services_columns_wrap sc_item_columns sc_item_columns_4 trx_addons_columns_wrap columns_padding_bottom">
+														<div class="trx_addons_column-1_4">
+															<div
+																class="sc_services_item without_content with_icon sc_services_item_featured_top">
+																<div class="sc_services_item_marker_bg"></div><a
+																	href="http://prodent.ancorathemes.com/services/cavity-protection/"
+																	id="sc_services_1076238575_icon-icon1_1"
+																	class="sc_services_item_icon sc_services_item_marker icon-icon1"></a><a
+																	href="http://prodent.ancorathemes.com/services/cavity-protection/"
+																	id="sc_services_1076238575_icon-icon1"
+																	class="sc_services_item_icon sc_services_item_marker sc_services_item_marker_back icon-icon1"></a>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/cavity-protection/">Cavity
+																				Protection</a></h4>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/cavity-protection/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div
+																class="sc_services_item without_content with_icon sc_services_item_featured_top">
+																<div class="sc_services_item_marker_bg"></div><a
+																	href="http://prodent.ancorathemes.com/services/implant-dentistry/"
+																	id="sc_services_727641999_icon-icon2_1"
+																	class="sc_services_item_icon sc_services_item_marker icon-icon2"></a><a
+																	href="http://prodent.ancorathemes.com/services/implant-dentistry/"
+																	id="sc_services_727641999_icon-icon2"
+																	class="sc_services_item_icon sc_services_item_marker sc_services_item_marker_back icon-icon2"></a>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/implant-dentistry/">Implant
+																				Dentistry</a></h4>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/implant-dentistry/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div
+																class="sc_services_item without_content with_icon sc_services_item_featured_top">
+																<div class="sc_services_item_marker_bg"></div><a
+																	href="http://prodent.ancorathemes.com/services/cosmetic-dentistry/"
+																	id="sc_services_933237875_icon-icon3_1"
+																	class="sc_services_item_icon sc_services_item_marker icon-icon3"></a><a
+																	href="http://prodent.ancorathemes.com/services/cosmetic-dentistry/"
+																	id="sc_services_933237875_icon-icon3"
+																	class="sc_services_item_icon sc_services_item_marker sc_services_item_marker_back icon-icon3"></a>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/cosmetic-dentistry/">Cosmetic
+																				Dentistry</a></h4>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/cosmetic-dentistry/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div
+																class="sc_services_item without_content with_icon sc_services_item_featured_top">
+																<div class="sc_services_item_marker_bg"></div><a
+																	href="http://prodent.ancorathemes.com/services/paradontosis/"
+																	id="sc_services_1033518811_icon-icon4_1"
+																	class="sc_services_item_icon sc_services_item_marker icon-icon4"></a><a
+																	href="http://prodent.ancorathemes.com/services/paradontosis/"
+																	id="sc_services_1033518811_icon-icon4"
+																	class="sc_services_item_icon sc_services_item_marker sc_services_item_marker_back icon-icon4"></a>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/paradontosis/">Paradontosis</a>
+																		</h4>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/paradontosis/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="sc_item_button sc_button_wrap sc_align_center"><a
+														href="/our-services/"
+														class="sc_button color_style_default sc_button_simple sc_button_size_normal sc_button_icon_left"><span
+															class="sc_button_text"><span class="sc_button_title">More
+																services</span></span></a></div>
+												<div class="vc_empty_space  vc_custom_1505301068269 height_small"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div class="vc_row wpb_row vc_row-fluid vc_custom_1505393813228">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="sc_layouts sc_layouts_default sc_layouts_622">
+													<div data-vc-full-width="true" data-vc-full-width-init="false"
+														data-vc-stretch-content="true"
+														class="vc_row wpb_row vc_row-fluid vc_custom_1600687557957 vc_row-has-fill vc_row-no-padding">
+														<div
+															class="wpb_column vc_column_container vc_col-sm-6 vc_col-sm-offset-0 vc_col-xs-offset-1 vc_col-xs-10 sc_layouts_column_icons_position_left">
+															<div class="vc_column-inner">
+																<div class="wpb_wrapper">
+																	<div id=""
+																		class="sc_content color_style_default sc_content_default sc_content_width_1_2 sc_float_right">
+																		<div class="sc_content_container">
+																			<div
+																				class="vc_row wpb_row vc_inner vc_row-fluid">
+																				<div
+																					class="wpb_column vc_column_container vc_col-sm-10 sc_layouts_column_icons_position_left">
+																					<div class="vc_column-inner">
+																						<div class="wpb_wrapper">
+																							<div id=""
+																								class="sc_title color_style_default sc_title_default">
+																								<h6
+																									class="sc_item_subtitle sc_title_subtitle sc_align_left sc_item_title_style_default">
+																									Who we are</h6>
+																							</div>
+																							<div class="vc_empty_space  vc_custom_1505303837057 height_tiny"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div id=""
+																								class="sc_title color_style_default sc_title_default">
+																								<h2
+																									class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default">
+																									Our goal is to make
+																									sure with advances
+																									in technology and
+																									technique</h2>
+																							</div>
+																							<div class="vc_empty_space  vc_custom_1505303863518 height_medium"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div
+																								class="wpb_single_image wpb_content_element vc_align_left">
+																								<figure
+																									class="wpb_wrapper vc_figure">
+																									<div
+																										class="vc_single_image-wrapper   vc_box_border_grey">
+																										<img width="500"
+																											height="305"
+																											src="http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-30.jpg"
+																											class="vc_single_image-img attachment-full"
+																											alt=""
+																											loading="lazy"
+																											srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-30.jpg 500w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-30-300x183.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-30-370x226.jpg 370w"
+																											sizes="(max-width: 500px) 100vw, 500px" />
+																									</div>
+																								</figure>
+																							</div>
+																							<div class="vc_empty_space  height_medium"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div class="vc_empty_space  height_huge"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div
+															class="wpb_column vc_column_container vc_col-sm-6 vc_col-sm-offset-0 vc_hidden-xs vc_col-has-fill sc_layouts_column_icons_position_left">
+															<div class="vc_column-inner vc_custom_1505479713208">
+																<div class="wpb_wrapper">
+																	<div id=""
+																		class="sc_content color_style_default sc_content_default sc_content_width_1_2 sc_float_left">
+																		<div class="sc_content_container">
+																			<div
+																				class="vc_row wpb_row vc_inner vc_row-fluid scheme_dark">
+																				<div
+																					class="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-2 vc_col-md-10 vc_col-sm-offset-1 sc_layouts_column_icons_position_left">
+																					<div class="vc_column-inner">
+																						<div class="wpb_wrapper">
+																							<div class="vc_empty_space  vc_custom_1505303033528 height_medium"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div class="vc_empty_space  height_huge"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div id=""
+																								class="sc_title color_style_default sc_title_default">
+																								<h6
+																									class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default sc_item_title_tag">
+																									Why Clients Choose
+																									Us?</h6>
+																							</div>
+																							<div class="vc_empty_space  vc_custom_1505303101244 height_medium"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div
+																								class="wpb_text_column wpb_content_element ">
+																								<div
+																									class="wpb_wrapper">
+																									<ul
+																										class="trx_addons_list_parameters">
+																										<li
+																											style="text-align: left;">
+																											A wide range
+																											of dental
+																											services
+																										</li>
+																										<li
+																											style="text-align: left;">
+																											We are
+																											family
+																											clinic</li>
+																										<li
+																											style="text-align: left;">
+																											Individual
+																											approach to
+																											patient</li>
+																										<li
+																											style="text-align: left;">
+																											Patient
+																											safety
+																											treatment
+																										</li>
+																										<li
+																											style="text-align: left;">
+																											Training of
+																											medical
+																											personnel
+																										</li>
+																									</ul>
+																								</div>
+																							</div>
+																							<div class="vc_empty_space  vc_custom_1505303714743 height_medium"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																							<div class="vc_empty_space  height_huge"
+																								style="height: 32px">
+																								<span
+																									class="vc_empty_space_inner"></span>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="vc_row-full-width vc_clearfix"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row wpb_row vc_row-fluid">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505304672056 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  hide_on_mobile height_huge"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div
+													class="sc_testimonials color_style_default sc_testimonials_default">
+													<h2
+														class="sc_item_title sc_testimonials_title sc_align_center sc_item_title_style_default">
+														Our Clients Say</h2>
+													<h6
+														class="sc_item_subtitle sc_testimonials_subtitle sc_align_center sc_item_title_style_default">
+														Testimonials</h6>
+													<div
+														class="sc_testimonials_slider sc_item_slider slider_swiper_outer slider_outer slider_outer_controls slider_outer_controls_bottom slider_outer_nopagination slider_outer_multi">
+														<div class="slider_container swiper-slider-container slider_swiper slider_noresize slider_controls slider_controls_bottom slider_nopagination slider_multi"
+															data-slides-per-view="2" data-slides-space="30"
+															data-slides-min-width="290" data-pagination="bullets">
+															<div
+																class="slides slider-wrapper swiper-wrapper sc_item_columns_2">
+																<div class="slider-slide swiper-slide">
+																	<div class="sc_testimonials_item">
+																		<div class="sc_testimonials_item_content">
+																			<p>&#8220;The friendly atmosphere and state
+																				of the art interior makes you relax. I
+																				have had a dental phobia most of my
+																				life, but it&#8217;s gone after just one
+																				visit here!&#8221;</p>
+																		</div>
+																		<div class="sc_testimonials_item_author">
+																			<div
+																				class="sc_testimonials_item_author_avatar">
+																				<img width="90" height="90"
+																					src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-90x90.jpg"
+																					class="attachment-prodent-thumb-tiny size-prodent-thumb-tiny wp-post-image"
+																					alt="Ashlie Wilson" loading="lazy"
+																					srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-90x90.jpg 90w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-300x300.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-150x150.jpg 150w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-370x370.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-180x180.jpg 180w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-280x280.jpg 280w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32-100x100.jpg 100w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-32.jpg 500w"
+																					sizes="(max-width: 90px) 100vw, 90px" />
+																			</div>
+																			<div
+																				class="sc_testimonials_item_author_data">
+																				<h4
+																					class="sc_testimonials_item_author_title">
+																					Ashlie Wilson</h4>
+																				<div
+																					class="sc_testimonials_item_author_subtitle">
+																					23 years</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="slider-slide swiper-slide">
+																	<div class="sc_testimonials_item">
+																		<div class="sc_testimonials_item_content">
+																			<p>&#8220;The work you carried out on my
+																				teeth was excellent. I am absolutely
+																				delighted with the finished result and
+																				would not hesitate to recommend you to
+																				everyone.&#8221;</p>
+																		</div>
+																		<div class="sc_testimonials_item_author">
+																			<div
+																				class="sc_testimonials_item_author_avatar">
+																				<img width="90" height="90"
+																					src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-90x90.jpg"
+																					class="attachment-prodent-thumb-tiny size-prodent-thumb-tiny wp-post-image"
+																					alt="Ketrin Jenkins" loading="lazy"
+																					srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-90x90.jpg 90w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-300x300.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-150x150.jpg 150w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-370x370.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-180x180.jpg 180w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-280x280.jpg 280w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33-100x100.jpg 100w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-33.jpg 500w"
+																					sizes="(max-width: 90px) 100vw, 90px" />
+																			</div>
+																			<div
+																				class="sc_testimonials_item_author_data">
+																				<h4
+																					class="sc_testimonials_item_author_title">
+																					Ketrin Jenkins</h4>
+																				<div
+																					class="sc_testimonials_item_author_subtitle">
+																					28 years</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="slider-slide swiper-slide">
+																	<div class="sc_testimonials_item">
+																		<div class="sc_testimonials_item_content">
+																			<p>“I just wanted to write to thank each and
+																				every member of ProDental Clinic I came
+																				into contact with for making my visit so
+																				smooth and comfortable today .”</p>
+																		</div>
+																		<div class="sc_testimonials_item_author">
+																			<div
+																				class="sc_testimonials_item_author_avatar">
+																				<img width="90" height="90"
+																					src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-90x90.jpg"
+																					class="attachment-prodent-thumb-tiny size-prodent-thumb-tiny wp-post-image"
+																					alt="Amanda Smith" loading="lazy"
+																					srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-90x90.jpg 90w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-300x300.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-150x150.jpg 150w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-370x370.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-180x180.jpg 180w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-280x280.jpg 280w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35-100x100.jpg 100w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-35.jpg 500w"
+																					sizes="(max-width: 90px) 100vw, 90px" />
+																			</div>
+																			<div
+																				class="sc_testimonials_item_author_data">
+																				<h4
+																					class="sc_testimonials_item_author_title">
+																					Amanda Smith</h4>
+																				<div
+																					class="sc_testimonials_item_author_subtitle">
+																					31 years</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="slider-slide swiper-slide">
+																	<div class="sc_testimonials_item">
+																		<div class="sc_testimonials_item_content">
+																			<p>“After visiting a number of dentists over
+																				the years, I have finally found one who
+																				I trust, without a doubt the most caring
+																				and professional staff is working at
+																				ProDent. ”</p>
+																		</div>
+																		<div class="sc_testimonials_item_author">
+																			<div
+																				class="sc_testimonials_item_author_avatar">
+																				<img width="90" height="90"
+																					src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-90x90.jpg"
+																					class="attachment-prodent-thumb-tiny size-prodent-thumb-tiny wp-post-image"
+																					alt="Vanessa Gilmore" loading="lazy"
+																					srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-90x90.jpg 90w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-300x300.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-150x150.jpg 150w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-370x370.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-180x180.jpg 180w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-280x280.jpg 280w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34-100x100.jpg 100w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-34.jpg 500w"
+																					sizes="(max-width: 90px) 100vw, 90px" />
+																			</div>
+																			<div
+																				class="sc_testimonials_item_author_data">
+																				<h4
+																					class="sc_testimonials_item_author_title">
+																					Vanessa Gilmore</h4>
+																				<div
+																					class="sc_testimonials_item_author_subtitle">
+																					22 years</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="slider_controls_wrap"><a
+																class="slider_prev swiper-button-prev" href="#"></a><a
+																class="slider_next swiper-button-next" href="#"></a>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505304866268 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1505305241868 vc_row-has-fill scheme_dark">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-5 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505305446547 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+												<div id="" class="sc_title color_style_default sc_title_default">
+													<h1
+														class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default sc_item_title_tag">
+														Only Highly Qualified Dentists</h1>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505305639666 height_small"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="wpb_text_column wpb_content_element ">
+													<div class="wpb_wrapper">
+														<p><span
+																style="font-size: 1.133em; font-weight: 500; line-height: 1.54; color: #ffffff;">Our
+																team has expert professionals who are immensely
+																experienced for several years.</span></p>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505305680555 height_small"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="wpb_single_image wpb_content_element vc_align_left">
+													<figure class="wpb_wrapper vc_figure">
+														<div class="vc_single_image-wrapper   vc_box_border_grey"><img
+																width="229" height="70"
+																src="http://prodent.ancorathemes.com/wp-content/uploads/2017/05/marker-2.png"
+																class="vc_single_image-img attachment-full" alt=""
+																loading="lazy" /></div>
+													</figure>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505305709728 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1499417322037 vc_row-has-fill">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505305956634 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+												<div
+													class="sc_services color_style_default sc_services_default sc_services_featured_top">
+													<h2
+														class="sc_item_title sc_services_title sc_align_center sc_item_title_style_default">
+														Areas of Dental Practices</h2>
+													<h6
+														class="sc_item_subtitle sc_services_subtitle sc_align_center sc_item_title_style_default">
+														What we offer</h6>
+													<div
+														class="sc_services_columns_wrap sc_item_columns sc_item_columns_3 trx_addons_columns_wrap columns_padding_bottom">
+														<div class="trx_addons_column-1_3">
+															<div
+																class="sc_services_item with_content with_image sc_services_item_featured_top">
+																<div
+																	class="post_featured with_thumb hover_icon sc_services_item_thumb">
+																	<img width="370" height="211"
+																		src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-370x211.jpg"
+																		class="attachment-prodent-thumb-med size-prodent-thumb-med wp-post-image"
+																		alt="Pediatric Dentist" loading="lazy"
+																		srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-370x211.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-300x171.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-1024x584.jpg 1024w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-768x438.jpg 768w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-1536x876.jpg 1536w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-740x422.jpg 740w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-760x434.jpg 760w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26-1520x867.jpg 1520w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-26.jpg 2000w"
+																		sizes="(max-width: 370px) 100vw, 370px" />
+																	<div class="mask"></div>
+																	<div class="icons"><a
+																			href="http://prodent.ancorathemes.com/services/pediatric-dentist/"
+																			aria-hidden="true" class="icon-icon12"></a>
+																	</div>
+																</div>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/pediatric-dentist/">Pediatric
+																				Dentist</a></h4>
+																		<div class="sc_services_item_subtitle"><a
+																				href="http://prodent.ancorathemes.com/services_group/what-we-offer/"
+																				title="View all posts in What we offer">What
+																				we offer</a></div>
+																	</div>
+																	<div class="sc_services_item_content">
+																		<p>Professional dental clinic ProDent offers the
+																			whole range of dentistry services: treatment
+																			of caries.</p>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/pediatric-dentist/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_3">
+															<div
+																class="sc_services_item with_content with_image sc_services_item_featured_top">
+																<div
+																	class="post_featured with_thumb hover_icon sc_services_item_thumb">
+																	<img width="370" height="211"
+																		src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-370x211.jpg"
+																		class="attachment-prodent-thumb-med size-prodent-thumb-med wp-post-image"
+																		alt="General Dentistry" loading="lazy"
+																		srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-370x211.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-300x171.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-1024x584.jpg 1024w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-768x438.jpg 768w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-1536x876.jpg 1536w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-740x422.jpg 740w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-760x434.jpg 760w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25-1520x867.jpg 1520w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-25.jpg 2000w"
+																		sizes="(max-width: 370px) 100vw, 370px" />
+																	<div class="mask"></div>
+																	<div class="icons"><a
+																			href="http://prodent.ancorathemes.com/services/general-dentistry/"
+																			aria-hidden="true" class="icon-icon12"></a>
+																	</div>
+																</div>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/general-dentistry/">General
+																				Dentistry</a></h4>
+																		<div class="sc_services_item_subtitle"><a
+																				href="http://prodent.ancorathemes.com/services_group/what-we-offer/"
+																				title="View all posts in What we offer">What
+																				we offer</a></div>
+																	</div>
+																	<div class="sc_services_item_content">
+																		<p>The goal of general dentistry is to remove
+																			all disease from your mouth giving you a
+																			perfect smile!</p>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/general-dentistry/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_3">
+															<div
+																class="sc_services_item with_content with_image sc_services_item_featured_top">
+																<div
+																	class="post_featured with_thumb hover_icon sc_services_item_thumb">
+																	<img width="370" height="211"
+																		src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-370x211.jpg"
+																		class="attachment-prodent-thumb-med size-prodent-thumb-med wp-post-image"
+																		alt="Cosmetic Dentisry" loading="lazy"
+																		srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-370x211.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-300x171.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-1024x584.jpg 1024w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-768x438.jpg 768w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-1536x876.jpg 1536w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-740x422.jpg 740w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-760x434.jpg 760w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24-1520x867.jpg 1520w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-24.jpg 2000w"
+																		sizes="(max-width: 370px) 100vw, 370px" />
+																	<div class="mask"></div>
+																	<div class="icons"><a
+																			href="http://prodent.ancorathemes.com/services/cosmetic-dentisry/"
+																			aria-hidden="true" class="icon-icon12"></a>
+																	</div>
+																</div>
+																<div class="sc_services_item_info">
+																	<div class="sc_services_item_header">
+																		<h4 class="sc_services_item_title"><a
+																				href="http://prodent.ancorathemes.com/services/cosmetic-dentisry/">Cosmetic
+																				Dentisry</a></h4>
+																		<div class="sc_services_item_subtitle"><a
+																				href="http://prodent.ancorathemes.com/services_group/what-we-offer/"
+																				title="View all posts in What we offer">What
+																				we offer</a></div>
+																	</div>
+																	<div class="sc_services_item_content">
+																		<p>Cosmetic Dentistry refers to the most
+																			suitable dental treatments that based on
+																			patient’s current condition</p>
+																	</div>
+																	<div class="sc_services_item_button sc_item_button">
+																		<a href="http://prodent.ancorathemes.com/services/cosmetic-dentisry/"
+																			class="sc_button sc_button_simple">More
+																			info</a></div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505305992325 height_small"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									data-vc-stretch-content="true"
+									class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-equal-height vc_row-flex">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 vc_hidden-xs vc_col-has-fill sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner vc_custom_1505480129917">
+											<div class="wpb_wrapper"></div>
+										</div>
+									</div>
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner vc_custom_1505394122545">
+											<div class="wpb_wrapper">
+												<div id=""
+													class="sc_content color_style_default sc_content_default sc_content_width_1_2 sc_float_left">
+													<div class="sc_content_container">
+														<div class="vc_row wpb_row vc_inner vc_row-fluid">
+															<div
+																class="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-2 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill hide_bg_image_on_mobile sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner vc_custom_1600687089008">
+																	<div class="wpb_wrapper">
+																		<div class="vc_empty_space  vc_custom_1505306974399 height_large"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div
+																			class="wpb_text_column wpb_content_element ">
+																			<div class="wpb_wrapper">
+																				<p><span class="trx_addons_promo_large"
+																						style="color: #404040;">Get a
+																						Hollywood Smile Today!</span>
+																					<span
+																						class="trx_addons_promo_small">from</span>
+																					<span class="trx_addons_promo_large"
+																						style="color: #ff8a8b;">100$</span>
+																				</p>
+																			</div>
+																		</div>
+																		<div class="vc_empty_space  height_small"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div><a href="/our-services/"
+																			class="sc_button color_style_default sc_button_default sc_button_size_normal sc_button_icon_left"><span
+																				class="sc_button_text"><span
+																					class="sc_button_title">More
+																					Details</span></span></a>
+																		<div class="vc_empty_space  vc_custom_1505307343714 height_medium"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1600686707029 vc_row-has-fill">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505307883713 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+												<div class="sc_team color_style_default sc_team_short">
+													<h2
+														class="sc_item_title sc_team_title sc_align_center sc_item_title_style_default">
+														Highly Qualified Dentists</h2>
+													<h6
+														class="sc_item_subtitle sc_team_subtitle sc_align_center sc_item_title_style_default">
+														Team of Professionals</h6>
+													<div
+														class="sc_team_columns_wrap sc_item_columns trx_addons_columns_wrap columns_padding_bottom">
+														<div class="trx_addons_column-1_4">
+															<div class="sc_team_item">
+																<div
+																	class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+																	<a href="http://prodent.ancorathemes.com/team/dr-jeison-smith/"
+																		aria-hidden="true"><img width="270" height="298"
+																			src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/4-270x298.jpg"
+																			class="attachment-prodent-thumb-team size-prodent-thumb-team wp-post-image"
+																			alt="Dr. Jeison  Smith" loading="lazy"
+																			srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/4-270x298.jpg 270w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/4-540x596.jpg 540w"
+																			sizes="(max-width: 270px) 100vw, 270px" /></a>
+																	<div class="trx_addons_hover_content">
+																		<div
+																			class="sc_team_item_socials socials_wrap trx_addons_hover_info">
+																			<a target="_blank"
+																				href="https://twitter.com/ancora_themes"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_twitter"><span
+																						class="icon-twitter"></span></span></a><a
+																				target="_blank"
+																				href="https://www.facebook.com/AncoraThemes/"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_facebook"><span
+																						class="icon-facebook"></span></span></a>
+																		</div>
+																	</div>
+																	<div class="trx_addons_hover_mask"></div>
+																</div>
+																<div class="sc_team_item_info">
+																	<div class="sc_team_item_header">
+																		<h4 class="sc_team_item_title"><a
+																				href="http://prodent.ancorathemes.com/team/dr-jeison-smith/">Dr.
+																				Jeison Smith</a></h4>
+																		<div class="sc_team_item_subtitle">
+																			Dentist-Orthodontist</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div class="sc_team_item">
+																<div
+																	class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+																	<a href="http://prodent.ancorathemes.com/team/dr-sheila-coredero/"
+																		aria-hidden="true"><img width="270" height="298"
+																			src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/1-270x298.jpg"
+																			class="attachment-prodent-thumb-team size-prodent-thumb-team wp-post-image"
+																			alt="Dr. Sheila Coredero" loading="lazy"
+																			srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/1-270x298.jpg 270w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/1-540x596.jpg 540w"
+																			sizes="(max-width: 270px) 100vw, 270px" /></a>
+																	<div class="trx_addons_hover_content">
+																		<div
+																			class="sc_team_item_socials socials_wrap trx_addons_hover_info">
+																			<a target="_blank"
+																				href="https://twitter.com/ancora_themes"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_twitter"><span
+																						class="icon-twitter"></span></span></a><a
+																				target="_blank"
+																				href="https://www.facebook.com/AncoraThemes/"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_facebook"><span
+																						class="icon-facebook"></span></span></a>
+																		</div>
+																	</div>
+																	<div class="trx_addons_hover_mask"></div>
+																</div>
+																<div class="sc_team_item_info">
+																	<div class="sc_team_item_header">
+																		<h4 class="sc_team_item_title"><a
+																				href="http://prodent.ancorathemes.com/team/dr-sheila-coredero/">Dr.
+																				Sheila Coredero</a></h4>
+																		<div class="sc_team_item_subtitle">Dentist, Oral
+																			surgeon</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div class="sc_team_item">
+																<div
+																	class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+																	<a href="http://prodent.ancorathemes.com/team/dr-alex-coredero/"
+																		aria-hidden="true"><img width="270" height="298"
+																			src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/3-270x298.jpg"
+																			class="attachment-prodent-thumb-team size-prodent-thumb-team wp-post-image"
+																			alt="Dr. Alex Coredero" loading="lazy"
+																			srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/3-270x298.jpg 270w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/3-540x596.jpg 540w"
+																			sizes="(max-width: 270px) 100vw, 270px" /></a>
+																	<div class="trx_addons_hover_content">
+																		<div
+																			class="sc_team_item_socials socials_wrap trx_addons_hover_info">
+																			<a target="_blank"
+																				href="https://twitter.com/ancora_themes"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_twitter"><span
+																						class="icon-twitter"></span></span></a><a
+																				target="_blank"
+																				href="https://www.facebook.com/AncoraThemes/"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_facebook"><span
+																						class="icon-facebook"></span></span></a>
+																		</div>
+																	</div>
+																	<div class="trx_addons_hover_mask"></div>
+																</div>
+																<div class="sc_team_item_info">
+																	<div class="sc_team_item_header">
+																		<h4 class="sc_team_item_title"><a
+																				href="http://prodent.ancorathemes.com/team/dr-alex-coredero/">Dr.
+																				Alex Coredero</a></h4>
+																		<div class="sc_team_item_subtitle">Dental
+																			Therapist</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div class="sc_team_item">
+																<div
+																	class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+																	<a href="http://prodent.ancorathemes.com/team/dr-simona-willams/"
+																		aria-hidden="true"><img width="270" height="298"
+																			src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/2-270x298.jpg"
+																			class="attachment-prodent-thumb-team size-prodent-thumb-team wp-post-image"
+																			alt="Dr. Simona Willams" loading="lazy"
+																			srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/2-270x298.jpg 270w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/2-540x596.jpg 540w"
+																			sizes="(max-width: 270px) 100vw, 270px" /></a>
+																	<div class="trx_addons_hover_content">
+																		<div
+																			class="sc_team_item_socials socials_wrap trx_addons_hover_info">
+																			<a target="_blank"
+																				href="https://twitter.com/ancora_themes"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_twitter"><span
+																						class="icon-twitter"></span></span></a><a
+																				target="_blank"
+																				href="https://www.facebook.com/AncoraThemes/"
+																				class="social_item social_item_style_icons social_item_type_icons"><span
+																					class="social_icon social_facebook"><span
+																						class="icon-facebook"></span></span></a>
+																		</div>
+																	</div>
+																	<div class="trx_addons_hover_mask"></div>
+																</div>
+																<div class="sc_team_item_info">
+																	<div class="sc_team_item_header">
+																		<h4 class="sc_team_item_title"><a
+																				href="http://prodent.ancorathemes.com/team/dr-simona-willams/">Dr.
+																				Simona Willams</a></h4>
+																		<div class="sc_team_item_subtitle">Dental
+																			Assistant</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505308231064 height_tiny"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="sc_item_button sc_button_wrap sc_align_center"><a
+														href="/team/"
+														class="sc_button color_style_default sc_button_simple sc_button_size_normal sc_button_icon_left"><span
+															class="sc_button_text"><span class="sc_button_title">More
+																doctors</span></span></a></div>
+												<div class="vc_empty_space  vc_custom_1505308320741 height_small"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									data-vc-stretch-content="true"
+									class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-equal-height vc_row-flex">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill hide_bg_image_on_mobile sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner vc_custom_1505480322976">
+											<div class="wpb_wrapper">
+												<div id=""
+													class="sc_content color_style_default sc_content_default sc_content_width_1_2 sc_float_right">
+													<div class="sc_content_container">
+														<div class="vc_row wpb_row vc_inner vc_row-fluid">
+															<div
+																class="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-0 vc_col-xs-offset-1 vc_col-xs-10 sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner">
+																	<div class="wpb_wrapper">
+																		<div id=""
+																			class="sc_title color_style_default sc_title_default">
+																			<h6
+																				class="sc_item_subtitle sc_title_subtitle sc_align_left sc_item_title_style_default">
+																				Why choose us</h6>
+																		</div>
+																		<div class="vc_empty_space  height_tiny"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div id=""
+																			class="sc_title color_style_default sc_title_default">
+																			<h2
+																				class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default">
+																				Our goal is to make sure with advances
+																				in technology</h2>
+																		</div>
+																		<div class="vc_empty_space  height_medium"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div
+																			class="wpb_text_column wpb_content_element ">
+																			<div class="wpb_wrapper">
+																				<p>Professional dental clinic ProDent
+																					offers the whole range of dentistry
+																					services: treatment of caries, gum
+																					diseases, tooth whitening,
+																					implantation, dentures (crowns
+																					installation), surgery, occlusion
+																					correction (braces) etc.</p>
+																			</div>
+																		</div>
+																		<div class="vc_empty_space  vc_custom_1505310404353 height_medium"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div><a href="/about-1/"
+																			class="sc_button color_style_default sc_button_default sc_button_size_normal sc_button_icon_left"><span
+																				class="sc_button_text"><span
+																					class="sc_button_title">More about
+																					practice</span></span></a>
+																		<div class="vc_empty_space  vc_custom_1505310429434 height_small"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div class="vc_empty_space  height_huge"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner vc_custom_1499418051287">
+											<div class="wpb_wrapper">
+												<div id=""
+													class="sc_content color_style_default sc_content_default sc_content_width_1_2 sc_float_left">
+													<div class="sc_content_container">
+														<div class="vc_row wpb_row vc_inner vc_row-fluid">
+															<div
+																class="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-2 vc_col-xs-offset-1 vc_col-xs-10 sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner">
+																	<div class="wpb_wrapper">
+																		<div class="vc_empty_space  vc_custom_1505284869954 height_huge"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div id=""
+																			class="sc_title color_style_default scheme_dark sc_title_default">
+																			<h6
+																				class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default sc_item_title_tag">
+																				Our Clients Rated Our Services</h6>
+																		</div>
+																		<div class="vc_empty_space  height_medium"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div
+																			class="vc_progress_bar wpb_content_element vc_custom_1505283845164  vc_progress-bar-color-white vc_progress_bar_narrow">
+																			<div class="vc_general vc_single_bar"><small
+																					class="vc_label">Cavity Protection
+																					<span
+																						class="vc_label_units">98%</span></small><span
+																					class="vc_bar "
+																					data-percentage-value="98"
+																					data-value="98"></span></div>
+																			<div class="vc_general vc_single_bar"><small
+																					class="vc_label">Gum Disease <span
+																						class="vc_label_units">99%</span></small><span
+																					class="vc_bar "
+																					data-percentage-value="99"
+																					data-value="99"></span></div>
+																			<div class="vc_general vc_single_bar"><small
+																					class="vc_label">Cosmetic Dentistry
+																					<span
+																						class="vc_label_units">100%</span></small><span
+																					class="vc_bar "
+																					data-percentage-value="100"
+																					data-value="100"></span></div>
+																			<div class="vc_general vc_single_bar"><small
+																					class="vc_label">Orthodontics <span
+																						class="vc_label_units">98%</span></small><span
+																					class="vc_bar "
+																					data-percentage-value="98"
+																					data-value="98"></span></div>
+																		</div>
+																		<div class="vc_empty_space  vc_custom_1505284965464 height_medium"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																		<div class="vc_empty_space  height_huge"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div class="vc_row wpb_row vc_row-fluid">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505312168144 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+												<div class="sc_blogger color_style_default sc_blogger_default">
+													<h2
+														class="sc_item_title sc_blogger_title sc_align_center sc_item_title_style_default">
+														News and Healthy Tips</h2>
+													<h6
+														class="sc_item_subtitle sc_blogger_subtitle sc_align_center sc_item_title_style_default">
+														Blog feed</h6>
+													<div
+														class="sc_blogger_columns_wrap sc_item_columns trx_addons_columns_wrap columns_padding_bottom">
+														<div class="trx_addons_column-1_2">
+															<div
+																class="sc_blogger_item post_format_standard post-154 post type-post status-publish format-standard has-post-thumbnail hentry category-clinic-news tag-advice tag-health tag-sedation">
+																<div
+																	class="post_featured with_thumb hover_icon sc_blogger_item_featured">
+																	<img width="570" height="305"
+																		src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-570x305.jpg"
+																		class="attachment-prodent-thumb-blogger size-prodent-thumb-blogger wp-post-image"
+																		alt="What You Need to Know About Wisdom Teeth"
+																		loading="lazy"
+																		srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-570x305.jpg 570w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-300x161.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-1024x548.jpg 1024w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-768x411.jpg 768w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-1536x822.jpg 1536w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-2048x1096.jpg 2048w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-370x198.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-1140x610.jpg 1140w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-760x407.jpg 760w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-1520x813.jpg 1520w, http://prodent.ancorathemes.com/wp-content/uploads/2017/07/image-8-740x396.jpg 740w"
+																		sizes="(max-width: 570px) 100vw, 570px" />
+																	<div class="mask"></div>
+																	<div class="icons"><a
+																			href="http://prodent.ancorathemes.com/2017/07/04/what-you-need-to-know-about-wisdom-teeth/"
+																			aria-hidden="true" class="icon-icon12"></a>
+																	</div>
+																</div>
+																<div class="sc_blogger_item_content entry-content">
+																	<div class="sc_blogger_item_header entry-header">
+																		<h5 class="sc_blogger_item_title entry-title"><a
+																				href="http://prodent.ancorathemes.com/2017/07/04/what-you-need-to-know-about-wisdom-teeth/"
+																				rel="bookmark">What You Need to Know
+																				About Wisdom Teeth</a></h5>
+																		<div class="post_meta"> <span
+																				class="post_meta_item icon-icon11 post_date"><a
+																					href="http://prodent.ancorathemes.com/2017/07/04/what-you-need-to-know-about-wisdom-teeth/">Jul
+																					4, Tuesday</a></span>
+																			by <a class="post_meta_item post_author"
+																				rel="author"
+																				href="http://prodent.ancorathemes.com/author/anc_admin/">
+																				Cindy Jefferson </a>
+																			<a href="http://prodent.ancorathemes.com/2017/07/04/what-you-need-to-know-about-wisdom-teeth/#respond"
+																				class="post_meta_item post_counters_item post_counters_comments icon-icon6"><span
+																					class="post_counters_number">0</span><span
+																					class="post_counters_label">Comments</span>
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_2">
+															<div
+																class="sc_blogger_item post_format_standard post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-clinic-news tag-health tag-implant">
+																<div
+																	class="post_featured with_thumb hover_icon sc_blogger_item_featured">
+																	<img width="570" height="305"
+																		src="http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-570x305.jpg"
+																		class="attachment-prodent-thumb-blogger size-prodent-thumb-blogger wp-post-image"
+																		alt="We’ll help you achieve a smile to be proud of"
+																		loading="lazy"
+																		srcset="http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-570x305.jpg 570w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-300x161.jpg 300w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-1024x548.jpg 1024w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-768x411.jpg 768w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-1536x822.jpg 1536w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-2048x1096.jpg 2048w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-370x198.jpg 370w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-1140x610.jpg 1140w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-760x407.jpg 760w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-1520x813.jpg 1520w, http://prodent.ancorathemes.com/wp-content/uploads/2017/05/image-7-740x396.jpg 740w"
+																		sizes="(max-width: 570px) 100vw, 570px" />
+																	<div class="mask"></div>
+																	<div class="icons"><a
+																			href="http://prodent.ancorathemes.com/2017/05/27/well-help-you-achieve-a-smile-to-be-proud-of/"
+																			aria-hidden="true" class="icon-icon12"></a>
+																	</div>
+																</div>
+																<div class="sc_blogger_item_content entry-content">
+																	<div class="sc_blogger_item_header entry-header">
+																		<h5 class="sc_blogger_item_title entry-title"><a
+																				href="http://prodent.ancorathemes.com/2017/05/27/well-help-you-achieve-a-smile-to-be-proud-of/"
+																				rel="bookmark">We’ll help you achieve a
+																				smile to be proud of</a></h5>
+																		<div class="post_meta"> <span
+																				class="post_meta_item icon-icon11 post_date"><a
+																					href="http://prodent.ancorathemes.com/2017/05/27/well-help-you-achieve-a-smile-to-be-proud-of/">May
+																					27, Saturday</a></span>
+																			by <a class="post_meta_item post_author"
+																				rel="author"
+																				href="http://prodent.ancorathemes.com/author/anc_admin/">
+																				Cindy Jefferson </a>
+																			<a href="http://prodent.ancorathemes.com/2017/05/27/well-help-you-achieve-a-smile-to-be-proud-of/#comments"
+																				class="post_meta_item post_counters_item post_counters_comments icon-icon6"><span
+																					class="post_counters_number">1</span><span
+																					class="post_counters_label">Comment</span>
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505313316444 height_large"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1505314985522 vc_row-has-fill">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div id=""
+													class="sc_content sc_content_shadowed color_style_default sc_content_default sc_float_center sc_align_right sc_padding_medium  vc_custom_1505314994412">
+													<div class="sc_content_container">
+														<div
+															class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex">
+															<div
+																class="wpb_column vc_column_container vc_col-sm-5 sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner">
+																	<div class="wpb_wrapper">
+																		<div id=""
+																			class="sc_title color_style_default sc_title_default">
+																			<h5
+																				class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default sc_item_title_tag">
+																				Don’t Miss Our News</h5>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div
+																class="wpb_column vc_column_container vc_col-sm-6 vc_hidden-lg vc_hidden-md vc_hidden-sm sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner">
+																	<div class="wpb_wrapper">
+																		<div class="vc_empty_space  height_medium"
+																			style="height: 32px"><span
+																				class="vc_empty_space_inner"></span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div
+																class="sc_align_left wpb_column vc_column_container vc_col-sm-7 sc_layouts_column_icons_position_left">
+																<div class="vc_column-inner">
+																	<div class="wpb_wrapper">
+																		<div
+																			class="widget_area sc_widget_banner vc_widget_banner wpb_content_element">
+																			<div class="widget widget_banner">
+																				<script>(function () {
+																						window.mc4wp = window.mc4wp || {
+																							listeners: [],
+																							forms: {
+																								on: function (evt, cb) {
+																									window.mc4wp.listeners.push(
+																										{
+																											event: evt,
+																											callback: cb
+																										}
+																									);
+																								}
+																							}
+																						}
+																					})();
+																				</script>
+																				<form id="mc4wp-form-1"
+																					class="mc4wp-form mc4wp-form-676"
+																					method="post" data-id="676"
+																					data-name="Emailer">
+																					<div class="mc4wp-form-fields">
+																						<input type="email" name="EMAIL"
+																							placeholder="Your email address"
+																							required />
+																						<input type="submit"
+																							value="Sign up" />
+																					</div><label
+																						style="display: none !important;">Leave
+																						this field empty if you're
+																						human: <input type="text"
+																							name="_mc4wp_honeypot"
+																							value="" tabindex="-1"
+																							autocomplete="off" /></label><input
+																						type="hidden"
+																						name="_mc4wp_timestamp"
+																						value="1617118846" /><input
+																						type="hidden"
+																						name="_mc4wp_form_id"
+																						value="676" /><input
+																						type="hidden"
+																						name="_mc4wp_form_element_id"
+																						value="mc4wp-form-1" />
+																					<div class="mc4wp-response"></div>
+																				</form>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1499264732518 vc_row-has-fill">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505370675901 height_tiny"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 32px"><span
+														class="vc_empty_space_inner"></span></div>
+												<div id="" class="sc_title color_style_default sc_title_default">
+													<h2
+														class="sc_item_title sc_title_title sc_align_center sc_item_title_style_default">
+														We are Here to Help You</h2>
+													<h6
+														class="sc_item_subtitle sc_title_subtitle sc_align_center sc_item_title_style_default">
+														Contact Info</h6>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505370701819 height_medium"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div id=""
+													class="sc_icons sc_icons_default sc_icons_size_small sc_align_center">
+													<div
+														class="sc_icons_columns_wrap sc_item_columns trx_addons_columns_wrap columns_padding_bottom">
+														<div class="trx_addons_column-1_4">
+															<div class="sc_icons_item">
+																<div id="_icon-icon7"
+																	class="sc_icons_icon sc_icon_type_ icon-icon7"><span
+																		class="sc_icon_type_ icon-icon7"></span></div>
+																<div class="sc_icons_item_description"><span>528 tenth
+																		Avenue, Boston,</span><span> BT 58965</span>
+																</div>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div class="sc_icons_item sc_icons_item_linked">
+																<div id="_icon-icon8"
+																	class="sc_icons_icon sc_icon_type_ icon-icon8"><span
+																		class="sc_icon_type_ icon-icon8"></span></div>
+																<div class="sc_icons_item_description"><span>+1 800 125
+																		65 24</span></div><a href="tel:18001256524"
+																	class="sc_icons_item_link"></a>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div class="sc_icons_item sc_icons_item_linked">
+																<div id="_icon-icon9"
+																	class="sc_icons_icon sc_icon_type_ icon-icon9"><span
+																		class="sc_icon_type_ icon-icon9"></span></div>
+																<div class="sc_icons_item_description"><span><a
+																			href="/cdn-cgi/l/email-protection"
+																			class="__cf_email__"
+																			data-cfemail="1871767e775861776d6a6b716c7d367b7775">[email&#160;protected]</a></span>
+																</div><a
+																	href="/cdn-cgi/l/email-protection#4e272028210e37213b3c3d273a2b602d2123"
+																	class="sc_icons_item_link"></a>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_4">
+															<div class="sc_icons_item">
+																<div id="_icon-icon10"
+																	class="sc_icons_icon sc_icon_type_ icon-icon10">
+																	<span class="sc_icon_type_ icon-icon10"></span>
+																</div>
+																<div class="sc_icons_item_description"><span>Mn - St:
+																		8:00am - 9:00pm </span><span>Sn: Closed</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505370759969 height_large"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									data-vc-stretch-content="true"
+									class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div id="_wrap" class="sc_googlemap_wrap">
+													<div id="" class="sc_googlemap sc_googlemap_default"
+														style="width:100%;height:345px;" data-zoom="13"
+														data-style="dark" data-cluster-icon=""><iframe
+															src="https://maps.google.com/maps?t=m&output=embed&iwloc=near&z=13&q=40.488181,-74.586377"
+															scrolling="no" marginheight="0" marginwidth="0"
+															frameborder="0" aria-label="One"></iframe></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									class="vc_row wpb_row vc_row-fluid vc_custom_1505225017255 vc_row-has-fill scheme_dark">
+									<div
+										class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  vc_custom_1505225272755 height_large"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+												<div class="sc_action color_style_default sc_action_simple">
+													<div class="sc_action_content sc_item_content">
+														<div
+															class="sc_action_item sc_action_item_simple sc_action_item_mc">
+															<h3 class="sc_action_item_title"><span>Make an Appointment
+																	for Your Smile! </span></h3>
+															<div
+																class="sc_action_item_icon sc_action_item_icon_type_ icon-phone_big1">
+																<span
+																	class="sc_action_item_icon_type_ icon-phone_big1"></span>
+															</div>
+															<h6 class="sc_action_item_subtitle"><span><a
+																		href="tel:1 800 345 67 56">1 800 345 67 56</a>
+																</span></h6>
+															<div class="action_subtitle_separator"></div><a
+																href="/appointments/"
+																class="sc_action_item_link sc_button">Make an
+																Appointment</a>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  vc_custom_1505226493543 height_large"
+													style="height: 32px"><span class="vc_empty_space_inner"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<footer
+				class="footer_wrap footer_custom footer_custom_1184 footer_custom_footer-without-border scheme_default">
+				<div
+					class="vc_row wpb_row vc_row-fluid vc_custom_1566983596401 vc_row-has-fill sc_layouts_row sc_layouts_row_type_normal">
+					<div class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left">
+						<div class="vc_column-inner">
+							<div class="wpb_wrapper">
+								<div id=""
+									class="sc_content color_style_default sc_content_default sc_content_width_1_1 sc_float_center">
+									<div class="sc_content_container">
+										<div class="vc_row wpb_row vc_inner vc_row-fluid">
+											<div
+												class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-4 vc_col-md-4 vc_col-xs-12 sc_layouts_column sc_layouts_column_align_left sc_layouts_column_icons_position_left">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper">
+														<div class="vc_empty_space  vc_custom_1600682389821 hide_on_mobile height_small"
+															style="height: 32px"><span
+																class="vc_empty_space_inner"></span></div>
+														<div class="vc_wp_text wpb_content_element">
+															<div class="widget widget_text">
+																<div class="textwidget">
+																	<p><a href="https://themeforest.net/user/ancorathemes/portfolio"
+																			target="_blank"
+																			rel="noopener noreferrer">AncoraThemes</a> ©
+																		2021. All rights reserved.</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div
+												class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-4 vc_col-md-4 vc_col-xs-12 sc_layouts_column sc_layouts_column_align_center sc_layouts_column_icons_position_left">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper">
+														<div class="vc_empty_space  vc_custom_1505053748443 height_tiny"
+															style="height: 32px"><span
+																class="vc_empty_space_inner"></span></div>
+														<div class="sc_layouts_item"><a
+																href="http://prodent.ancorathemes.com/"
+																class="111 sc_layouts_logo sc_layouts_logo_default"><img
+																	class="logo_image"
+																	src="http://prodent.ancorathemes.com/wp-content/uploads/2017/07/logo-1.png"
+																	alt="" width="199" height="64"></a></div>
+														<div class="vc_empty_space" style="height: 1px"><span
+																class="vc_empty_space_inner"></span></div>
+														<div class="sc_layouts_item">
+															<div
+																class="widget_area sc_widget_socials vc_widget_socials wpb_content_element">
+																<div class="widget widget_socials">
+																	<div class="socials_wrap sc_align_center"><a
+																			target="_blank"
+																			href="https://twitter.com/ancora_themes"
+																			class="social_item social_item_style_icons social_item_type_icons"><span
+																				class="social_icon social_twitter"><span
+																					class="icon-twitter"></span></span></a><a
+																			target="_blank"
+																			href="https://www.facebook.com/AncoraThemes/"
+																			class="social_item social_item_style_icons social_item_type_icons"><span
+																				class="social_icon social_facebook"><span
+																					class="icon-facebook"></span></span></a><a
+																			target="_blank"
+																			href="https://www.instagram.com/ancora_themes/"
+																			class="social_item social_item_style_icons social_item_type_icons"><span
+																				class="social_icon social_instagramm"><span
+																					class="icon-instagramm"></span></span></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div
+												class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-4 vc_col-md-4 vc_col-xs-12 sc_layouts_column sc_layouts_column_align_right sc_layouts_column_icons_position_left">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper">
+														<div class="vc_empty_space  vc_custom_1600682395948 hide_on_mobile height_small"
+															style="height: 32px"><span
+																class="vc_empty_space_inner"></span></div>
+														<div class="vc_wp_text wpb_content_element">
+															<div class="widget widget_text">
+																<div class="textwidget">
+																	<p><a href="http://ancorathemes.com/about/"
+																			target="_blank"
+																			rel="noopener noreferrer">Terms of Use</a>  
+																		 <a href="/Privacy Policy/">Privacy Policy</a>
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script type="text/javascript">
+		var ajaxRevslider;
+		function rsCustomAjaxContentLoadingFunction() {
+			// CUSTOM AJAX CONTENT LOADING FUNCTION
+			ajaxRevslider = function (obj) {
+
+				// obj.type : Post Type
+				// obj.id : ID of Content to Load
+				// obj.aspectratio : The Aspect Ratio of the Container / Media
+				// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+				var content = '';
+				var data = {
+					action: 'revslider_ajax_call_front',
+					client_action: 'get_slider_html',
+					token: '11d7090ad1',
+					type: obj.type,
+					id: obj.id,
+					aspectratio: obj.aspectratio
+				};
+
+				// SYNC AJAX REQUEST
+				jQuery.ajax({
+					type: 'post',
+					url: 'http://prodent.ancorathemes.com/wp-admin/admin-ajax.php',
+					dataType: 'json',
+					data: data,
+					async: false,
+					success: function (ret, textStatus, XMLHttpRequest) {
+						if (ret.success == true)
+							content = ret.data;
+					},
+					error: function (e) {
+						console.log(e);
+					}
+				});
+
+				// FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+				return content;
+			};
+
+			// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+			var ajaxRemoveRevslider = function (obj) {
+				return jQuery(obj.selector + ' .rev_slider').revkill();
+			};
+
+
+			// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION				
+			if (jQuery.fn.tpessential !== undefined)
+				if (typeof (jQuery.fn.tpessential.defaults) !== 'undefined')
+					jQuery.fn.tpessential.defaults.ajaxTypes.push({ type: 'revslider', func: ajaxRevslider, killfunc: ajaxRemoveRevslider, openAnimationSpeed: 0.3 });
+			// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+			// func: the Function Name which is Called once the Item with the Post Type has been clicked
+			// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+			// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)					
+		}
+
+		var rsCustomAjaxContent_Once = false
+		if (document.readyState === "loading")
+			document.addEventListener('readystatechange', function () {
+				if ((document.readyState === "interactive" || document.readyState === "complete") && !rsCustomAjaxContent_Once) {
+					rsCustomAjaxContent_Once = true;
+					rsCustomAjaxContentLoadingFunction();
+				}
+			});
+		else {
+			rsCustomAjaxContent_Once = true;
+			rsCustomAjaxContentLoadingFunction();
+		}
+	</script>
+	<script>(function () {
+			function maybePrefixUrlField() {
+				if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+					this.value = "http://" + this.value;
+				}
+			}
+
+			var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+			if (urlFields) {
+				for (var j = 0; j < urlFields.length; j++) {
+					urlFields[j].addEventListener('blur', maybePrefixUrlField);
+				}
+			}
+		})();</script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300%2C500%7CRoboto:400" rel="stylesheet"
+		property="stylesheet" media="all" type="text/css">
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type="text/javascript">
+		if (typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+				err += "</div>";
+				var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+			}
+		}
+	</script>
+	<script type='text/javascript' src='http://prodent.ancorathemes.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'
+		id='jquery-ui-core-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'
+		id='jquery-ui-datepicker-js'></script>
+	<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+		jQuery(document).ready(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "M d, DD", "firstDay": 1, "isRTL": false }); });
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/js/spin.min.js?ver=2.0.1'
+		id='booked-spin-js-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/js/spin.jquery.js?ver=2.0.1'
+		id='booked-spin-jquery-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js?ver=3.3.0'
+		id='booked-tooltipster-js'></script>
+	<script type='text/javascript' id='booked-functions-js-extra'>
+		/* <![CDATA[ */
+		var booked_js_vars = { "ajax_url": "http:\/\/prodent.ancorathemes.com\/wp-admin\/admin-ajax.php", "profilePage": "", "publicAppointments": "", "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?", "i18n_please_wait": "Please wait ...", "i18n_wrong_username_pass": "Wrong username\/password combination.", "i18n_fill_out_required_fields": "Please fill out all required fields.", "i18n_guest_appt_required_fields": "Please enter your name to book an appointment.", "i18n_appt_required_fields": "Please enter your name, your email address and choose a password to book an appointment.", "i18n_appt_required_fields_guest": "Please fill in all \"Information\" fields.", "i18n_password_reset": "Please check your email for instructions on resetting your password.", "i18n_password_reset_error": "That username or email is not recognized." };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/booked/assets/js/functions.js?ver=2.3'
+		id='booked-functions-js'></script>
+	<script type='text/javascript' id='contact-form-7-js-extra'>
+		/* <![CDATA[ */
+		var wpcf7 = { "apiSettings": { "root": "http:\/\/prodent.ancorathemes.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.2'
+		id='contact-form-7-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/js/swiper/swiper.jquery.min.js'
+		id='swiperslider-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/js/magnific/jquery.magnific-popup.min.js'
+		id='magnific-popup-js'></script>
+	<script type='text/javascript' id='trx_addons-js-extra'>
+		/* <![CDATA[ */
+		var TRX_ADDONS_STORAGE = { "ajax_url": "http:\/\/prodent.ancorathemes.com\/wp-admin\/admin-ajax.php", "ajax_nonce": "79aeffc7b0", "site_url": "http:\/\/prodent.ancorathemes.com", "post_id": "2", "vc_edit_mode": "0", "popup_engine": "magnific", "animate_inner_links": "0", "menu_collapse": "1", "user_logged_in": "0", "email_mask": "^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$", "msg_ajax_error": "Invalid server answer!", "msg_magnific_loading": "Loading image", "msg_magnific_error": "Error loading image", "msg_error_like": "Error saving your like! Please, try again later.", "msg_field_name_empty": "The name can't be empty", "msg_field_email_empty": "Too short (or empty) email address", "msg_field_email_not_valid": "Invalid email address", "msg_field_text_empty": "The message text can't be empty", "msg_search_error": "Search error! Try again later.", "msg_send_complete": "Send message complete!", "msg_send_error": "Transmit failed!", "ajax_views": "", "menu_cache": [".menu_mobile_inner > nav > ul"], "login_via_ajax": "1", "msg_login_empty": "The Login field can't be empty", "msg_login_long": "The Login field is too long", "msg_password_empty": "The password can't be empty and shorter then 4 characters", "msg_password_long": "The password is too long", "msg_login_success": "Login success! The page should be reloaded in 3 sec.", "msg_login_error": "Login failed!", "msg_not_agree": "Please, read and check 'Terms and Conditions'", "msg_email_long": "E-mail address is too long", "msg_email_not_valid": "E-mail address is invalid", "msg_password_not_equal": "The passwords in both fields are not equal", "msg_registration_success": "Registration success! Please log in!", "msg_registration_error": "Registration failed!", "msg_sc_googlemap_not_avail": "Googlemap service is not available", "msg_sc_googlemap_geocoder_error": "Error while geocode address" };
+/* ]]> */
+	</script>
+	<script type='text/javascript' src='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/js/trx_addons.js'
+		id='trx_addons-js'></script>
+	<script type='text/javascript' id='trx_demo_panels-js-extra'>
+		/* <![CDATA[ */
+		var TRX_DEMO_STORAGE = { "ajax_url": "http:\/\/prodent.ancorathemes.com\/wp-admin\/admin-ajax.php", "ajax_nonce": "79aeffc7b0", "site_url": "http:\/\/prodent.ancorathemes.com", "user_logged_in": "0", "msg_ajax_error": "Invalid server response! Try again later.", "tabs_delay": "5000" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/trx_demo/js/trx_demo_panels.js'
+		id='trx_demo_panels-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'
+		id='js-cookie-js'></script>
+	<script type='text/javascript' id='woocommerce-js-extra'>
+		/* <![CDATA[ */
+		var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.5.2'
+		id='woocommerce-js'></script>
+	<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+		/* <![CDATA[ */
+		var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_fae17d6ec3c6ea606f22ea309917f89a", "fragment_name": "wc_fragments_fae17d6ec3c6ea606f22ea309917f89a", "request_timeout": "5000" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.5.2'
+		id='wc-cart-fragments-js'></script>
+	<script type='text/javascript' id='booked-fea-js-js-extra'>
+		/* <![CDATA[ */
+		var booked_fea_vars = { "ajax_url": "http:\/\/prodent.ancorathemes.com\/wp-admin\/admin-ajax.php", "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?", "i18n_confirm_appt_approve": "Are you sure you want to approve this appointment?" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/booked/includes/add-ons/frontend-agents/js/functions.js?ver=2.3'
+		id='booked-fea-js-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/menu/superfish.js'
+		id='superfish-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/date-time-picker-field/assets/js/vendor/moment/moment.js?ver=5.5.1'
+		id='dtp-moment-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/date-time-picker-field/assets/js/vendor/datetimepicker/jquery.datetimepicker.full.min.js?ver=5.5.1'
+		id='dtpicker-js'></script>
+	<script type='text/javascript' id='dtpicker-build-js-extra'>
+		/* <![CDATA[ */
+		var datepickeropts = { "selector": ".date_picker_field", "locale": "en", "theme": "default", "datepicker": "on", "timepicker": "on", "inline": "off", "placeholder": "off", "preventkeyboard": "off", "minDate": "off", "step": "60", "minTime": "00:00", "maxTime": "23:59", "offset": "0", "min_date": "", "max_date": "", "dateformat": "YYYY-MM-DD", "hourformat": "hh:mm A", "load": "full", "dayOfWeekStart": "1", "disabled_days": "", "disabled_calendar_days": "", "allowed_times": "", "sunday_times": "", "monday_times": "", "tuesday_times": "", "wednesday_times": "", "thursday_times": "", "friday_times": "", "saturday_times": "", "i18n": { "en": { "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "dayOfWeekShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] } }, "format": "YYYY-MM-DD hh:mm A", "clean_format": "Y-m-d H:i", "value": "2021-03-30 16:00", "timezone": "", "utc_offset": "0", "now": "2021-03-30 15:40" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/date-time-picker-field/assets/js/dtpicker.js?ver=5.5.1'
+		id='dtpicker-build-js'></script>
+	<script type='text/javascript' id='prodent-init-js-extra'>
+		/* <![CDATA[ */
+		var PRODENT_STORAGE = { "ajax_url": "http:\/\/prodent.ancorathemes.com\/wp-admin\/admin-ajax.php", "ajax_nonce": "79aeffc7b0", "site_url": "http:\/\/prodent.ancorathemes.com", "theme_url": "http:\/\/prodent.ancorathemes.com\/wp-content\/themes\/prodent", "site_scheme": "scheme_default", "user_logged_in": "", "mobile_layout_width": "767", "mobile_device": "", "menu_side_stretch": "", "menu_side_icons": "1", "background_video": "", "use_mediaelements": "1", "comment_maxlength": "1000", "admin_mode": "", "email_mask": "^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$", "strings": { "ajax_error": "Invalid server answer!", "error_global": "Error data validation!", "name_empty": "The name can&#039;t be empty", "name_long": "Too long name", "email_empty": "Too short (or empty) email address", "email_long": "Too long email address", "email_not_valid": "Invalid email address", "text_empty": "The message text can&#039;t be empty", "text_long": "Too long message text" }, "alter_link_color": "#fe7259", "button_hover": "slide_left", "stretch_tabs_area": "1" };
+/* ]]> */
+	</script>
+	<script type='text/javascript' src='http://prodent.ancorathemes.com/wp-content/themes/prodent/js/__scripts.js'
+		id='prodent-init-js'></script>
+	<script type='text/javascript' id='mediaelement-core-js-before'>
+		var mejsL10n = { "language": "en", "strings": { "mejs.download-file": "Download File", "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/", "mejs.fullscreen": "Fullscreen", "mejs.play": "Play", "mejs.pause": "Pause", "mejs.time-slider": "Time Slider", "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.", "mejs.live-broadcast": "Live Broadcast", "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.", "mejs.unmute": "Unmute", "mejs.mute": "Mute", "mejs.volume-slider": "Volume Slider", "mejs.video-player": "Video Player", "mejs.audio-player": "Audio Player", "mejs.captions-subtitles": "Captions\/Subtitles", "mejs.captions-chapters": "Chapters", "mejs.none": "None", "mejs.afrikaans": "Afrikaans", "mejs.albanian": "Albanian", "mejs.arabic": "Arabic", "mejs.belarusian": "Belarusian", "mejs.bulgarian": "Bulgarian", "mejs.catalan": "Catalan", "mejs.chinese": "Chinese", "mejs.chinese-simplified": "Chinese (Simplified)", "mejs.chinese-traditional": "Chinese (Traditional)", "mejs.croatian": "Croatian", "mejs.czech": "Czech", "mejs.danish": "Danish", "mejs.dutch": "Dutch", "mejs.english": "English", "mejs.estonian": "Estonian", "mejs.filipino": "Filipino", "mejs.finnish": "Finnish", "mejs.french": "French", "mejs.galician": "Galician", "mejs.german": "German", "mejs.greek": "Greek", "mejs.haitian-creole": "Haitian Creole", "mejs.hebrew": "Hebrew", "mejs.hindi": "Hindi", "mejs.hungarian": "Hungarian", "mejs.icelandic": "Icelandic", "mejs.indonesian": "Indonesian", "mejs.irish": "Irish", "mejs.italian": "Italian", "mejs.japanese": "Japanese", "mejs.korean": "Korean", "mejs.latvian": "Latvian", "mejs.lithuanian": "Lithuanian", "mejs.macedonian": "Macedonian", "mejs.malay": "Malay", "mejs.maltese": "Maltese", "mejs.norwegian": "Norwegian", "mejs.persian": "Persian", "mejs.polish": "Polish", "mejs.portuguese": "Portuguese", "mejs.romanian": "Romanian", "mejs.russian": "Russian", "mejs.serbian": "Serbian", "mejs.slovak": "Slovak", "mejs.slovenian": "Slovenian", "mejs.spanish": "Spanish", "mejs.swahili": "Swahili", "mejs.swedish": "Swedish", "mejs.tagalog": "Tagalog", "mejs.thai": "Thai", "mejs.turkish": "Turkish", "mejs.ukrainian": "Ukrainian", "mejs.vietnamese": "Vietnamese", "mejs.welsh": "Welsh", "mejs.yiddish": "Yiddish" } };
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131'
+		id='mediaelement-core-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.5.1'
+		id='mediaelement-migrate-js'></script>
+	<script type='text/javascript' id='mediaelement-js-extra'>
+		/* <![CDATA[ */
+		var _wpmejsSettings = { "pluginPath": "\/wp-includes\/js\/mediaelement\/", "classPrefix": "mejs-", "stretching": "responsive" };
+/* ]]> */
+	</script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.5.1'
+		id='wp-mediaelement-js'></script>
+	<script type='text/javascript' src='http://prodent.ancorathemes.com/wp-includes/js/wp-embed.min.js?ver=5.5.1'
+		id='wp-embed-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.4.1'
+		id='wpb_composer_front_js-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js?ver=6.4.1'
+		id='vc_waypoints-js'></script>
+	<script type='text/javascript'
+		src='http://prodent.ancorathemes.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.min.js?ver=4.8.1'
+		id='mc4wp-forms-api-js'></script>
+	<a href="#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a>
+	<script>
+		TRX_DEMO_STORAGE['tabs_layout'] = "		<div class=\"trx_demo_panels trx_demo_tabs_position_rc\" style=\"width:320px;\">  			<div class=\"trx_demo_tabs\"> 				<a class=\"hint_left hint_big hint_slide\" href=\"https://themeforest.net/checkout/from_item/20830780?license=regular&#038;size=source\" 						 target=\"_blank\"						aria-label=\"Buy theme\" 						data-type=\"link\" 						style=\"color:#ffffff;background-color:#ff8a8b;\" 					><i class=\"trx_demo_icon-shopping-cart\"></i></a><a class=\"hint_left hint_big hint_slide\" href=\"#panel_related-themes\" 												aria-label=\"Our Bestsellers\" 						data-type=\"products\" 						style=\"color:#ffffff;background-color:#ff8a8b;\" 					><i class=\"trx_demo_icon-gallery\"></i></a><a class=\"hint_left hint_big hint_slide\" href=\"http://prodent.ancorathemes.com?notabs=1\" 												aria-label=\"Hide panel\" 						data-type=\"link\" 						style=\"color:#ffffff;background-color:#ff8a8b;\" 					><i class=\"trx_demo_icon-browser\"></i></a>			</div>  			<div class=\"trx_demo_panels_wrap\"> 				<div id=\"panel_related-themes\" 							class=\"trx_demo_panel 									trx_demo_panel_products									trx_demo_panel_thumbs_animation_off									trx_demo_panel_layout_1col									trx_demo_panel_style_plain\" 							style=\"\" 					><div class=\"trx_demo_panel_header\"><h5 class=\"trx_demo_panel_title\" style=\"\">Our Bestsellers</h5></div><div class=\"trx_demo_panel_list\"><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2017/09/jacqueline-5.png);\"> 												<a href=\"http://demo.themerex.net/?theme=jacqueline\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=jacqueline\" target=\"_blank\">Jacqueline &#8211; Spa &amp; Massage Salon Theme</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">Health &amp; Beauty</span></div>									</div> 								</div><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2019/07/fc-united-4.png);\"> 												<a href=\"http://demo.themerex.net/?theme=fc-united\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=fc-united\" target=\"_blank\">FC United &#8211; Football, Soccer WordPress Sports Theme</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">Entertainment</span></div>									</div> 								</div><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2019/10/Helion-image.png);\"> 												<a href=\"http://demo.themerex.net/?theme=helion\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=helion\" target=\"_blank\">Helion &#8211; Personal Creative Portfolio WordPress Theme + Store</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">Portfolio</span></div>									</div> 								</div><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2019/09/Blabber.png);\"> 												<a href=\"http://demo.themerex.net/?theme=blabber\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=blabber\" target=\"_blank\">Blabber | All-in-One Elementor Blog &#038; News Magazine WordPress Theme + RTL</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">News / Editorial</span></div>									</div> 								</div><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2020/06/Alliance-cover.jpg);\"> 												<a href=\"http://demo.themerex.net/?theme=alliance\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=alliance\" target=\"_blank\">Alliance &#8211; Intranet &#038; Extranet WordPress Theme</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">Directory &amp; Listings</span></div>									</div> 								</div><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2019/09/Mystik.png);\"> 												<a href=\"http://demo.themerex.net/?theme=mystik\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=mystik\" target=\"_blank\">Mystik &#8211; Astrology &#038; Esoteric Horoscope WordPress Theme</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">Health &amp; Beauty</span></div>									</div> 								</div><div class=\"trx_demo_panel_list_item\"> 									<div class=\"trx_demo_panel_list_item_image_wrap\"> 																					<div class=\"trx_demo_panel_list_item_image trx_demo_panel_list_item_image_ratio_1_1\" style=\"background-image: url(//themerex.net/wp-content/uploads/edd/2019/09/Briny.png);\"> 												<a href=\"http://demo.themerex.net/?theme=briny\" target=\"_blank\"></a> 											</div> 											<h6 class=\"trx_demo_panel_list_item_title\"> 											<a href=\"http://demo.themerex.net/?theme=briny\" target=\"_blank\">Briny &#8211; Scuba Diving School &#038; Water Sports WordPress Theme</a> 										</h6> 										<div class=\"trx_demo_panel_list_item_terms\"><span class=\"trx_demo_panel_list_item_term\">Travel</span></div>									</div> 								</div></div><div class=\"trx_demo_panel_footer\"><a class=\"trx_demo_panel_button sc_button theme_button trx_demo_inline_1326439517 trx_demo_inline_308724336\" href=\"https://themerex.net/offers/?utm_source=demowidget&#038;utm_medium=demowidget&#038;utm_campaign=demowidget\" target=\"_blank\">Hire Us</a></div></div></div> 			<span class=\"trx_demo_button_close\"><span class=\"trx_demo_button_close_icon\"></span></span>  		</div> 		<div class=\"trx_demo_panels_mask\"></div> 		";
+	</script>
+	<style type="text/css">
+		.trx_demo_inline_1326439517 {
+			color: #ffffff !important;
+			border-color: #ffaa5f !important;
+			background-color: #ffaa5f !important;
+		}
+
+		.trx_demo_inline_308724336:hover {
+			color: #ffffff !important;
+			border-color: #cc884c !important;
+			background-color: #cc884c !important;
+		}
+	</style>
+	<style type="text/css" id="trx_addons-inline-styles-inline-css">
+		.vc_custom_1505045794229 {
+			padding-right: 2em !important;
+			padding-left: 2em !important;
+		}
+
+		.vc_custom_1505046253284 {
+			background: #f7f7f7 url(http://prodent.ancorathemes.com/wp-content/uploads/2017/07/title_bg.jpg?id=387) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505046754490 {
+			margin-top: -1.6rem !important;
+		}
+
+		.vc_custom_1505047311143 {
+			margin-top: -1.45rem !important;
+		}
+
+		.vc_custom_1600687557957 {
+			margin-top: -2px !important;
+			background-color: #f4f7f7 !important;
+		}
+
+		.vc_custom_1505479713208 {
+			background-image: url(http://prodent.ancorathemes.com/wp-content/uploads/2017/05/bg-7.jpg?id=308) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1505303837057 {
+			margin-top: 0.7rem !important;
+		}
+
+		.vc_custom_1505303863518 {
+			margin-top: 0.7rem !important;
+		}
+
+		.vc_custom_1505303033528 {
+			margin-top: -0.25rem !important;
+		}
+
+		.vc_custom_1505303101244 {
+			margin-top: 1.5rem !important;
+		}
+
+		.vc_custom_1505303714743 {
+			margin-top: 0.5rem !important;
+		}
+
+		.vc_custom_1566983596401 {
+			background-color: #ffffff !important;
+		}
+
+		.vc_custom_1600682389821 {
+			margin-top: 0.4rem !important;
+		}
+
+		.vc_custom_1505053748443 {
+			margin-top: -0.55rem !important;
+		}
+
+		.vc_custom_1600682395948 {
+			margin-top: 0.4rem !important;
+		}
+	</style>
+</body>
+
+</html>
